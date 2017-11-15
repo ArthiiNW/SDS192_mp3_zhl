@@ -1,0 +1,1001 @@
+info_type_id,movie_id,info,keyword,phonetic_code,production_year,title,keyword
+3,4258126,Western,raining,R52,1970,Ringo,raining
+3,4258126,Western,raining,R52,1939,Ringo,raining
+3,3217352,Western,handcuffed-to-a-bed,H5321,1967,"Hondo dispara mÃ¡s fuerte",handcuffed-to-a-bed
+3,3710745,Western,handcuffed-to-a-bed,H5321,1967,Huntsville,handcuffed-to-a-bed
+3,4033747,Western,handcuffed-to-a-bed,H5321,1965,"Hands of a Gunfighter",handcuffed-to-a-bed
+3,4272881,Western,handcuffed-to-a-bed,H5321,2016,"Hands Up Dead Man",handcuffed-to-a-bed
+3,3667719,Western,jane-austen,J5235,1959,"Jonny schieÃŸt nur links",jane-austen
+3,3781514,Western,jane-austen,J5235,1967,"Jonny West und die verwegenen 3",jane-austen
+3,3781514,Western,jane-austen,J5235,1965,"Johnny West und die verwegenen drei",jane-austen
+3,3667719,Western,jane-austen,J5235,1959,"Johnny schieÃŸt nur links",jane-austen
+3,4412542,Western,jane-austen,J5235,1949,"John Steinbeck's The Red Pony",jane-austen
+3,3667719,Western,jane-austen,J5235,1958,"Jonny schieÃŸt nur links",jane-austen
+3,4450632,Western,woods,W32,1954,"The Woodhawk",woods
+3,3625465,Western,hanging,H5252,1999,"The Hangman's Daughter",hanging
+3,3555650,Western,hanging,H5252,1973,"The Hanging Judge",hanging
+3,3675468,Western,hanging,H5252,1952,"Hangman's Knot",hanging
+3,3675244,Western,hanging,H5252,1968,"Hang 'Em High",hanging
+3,3995352,Western,hanging,H5252,1956,"The Hanging Judge",hanging
+3,4079263,Western,hanging,H5252,1910,"Hanging at Jefferson City",hanging
+3,4363922,Western,hanging,H5252,1959,"The Hanging Tree",hanging
+3,4501565,Western,hanging,H5252,1969,"Hanging for Django",hanging
+3,3438571,Western,taunton-trial-court,T5353,1953,"Il tenente dinamite",taunton-trial-court
+3,4301576,Western,taunton-trial-court,T5353,1924,"Tom, Tony und Tiger",taunton-trial-court
+3,3705751,Western,hormone,H65,1949,"Harmony Inn",hormone
+3,3363298,Western,studio-city-california,S3232,2014,"Sadistic Execution",studio-city-california
+3,3557147,Western,studio-city-california,S3232,1952,"Stagecoach to Cheyenne",studio-city-california
+3,4314637,Western,studio-city-california,S3232,1966,"Southwest to Sonora",studio-city-california
+3,4314637,Western,studio-city-california,S3232,1967,"Southwest to Sonora",studio-city-california
+3,4503742,Western,studio-city-california,S3232,1920,"Sotto giudizio",studio-city-california
+3,3584696,Western,extramarital-affair,E2365,1987,"Extreme Prejudice",extramarital-affair
+3,3691305,Western,extramarital-affair,E2365,1912,"The Eastern Girl",extramarital-affair
+3,3983582,Western,extramarital-affair,E2365,1968,"El escuadrÃ³n de la muerte",extramarital-affair
+3,3983582,Western,extramarital-affair,E2365,1968,"Escuadron mueron",extramarital-affair
+3,3381711,Western,bulletproof-glass,B4316,1950,"Blood Brothers",bulletproof-glass
+3,3366180,Western,bulletproof-glass,B4316,1975,"Blood Brothers",bulletproof-glass
+3,3386971,Western,bulletproof-glass,B4316,1964,"Bullet for a Badman",bulletproof-glass
+3,3650134,Western,bulletproof-glass,B4316,1971,"Bullet for a Stranger",bulletproof-glass
+3,3650134,Western,bulletproof-glass,B4316,1971,"A Bullet for a Stranger",bulletproof-glass
+3,3630538,Western,bulletproof-glass,B4316,1948,"The Ballad of Furnace Creek",bulletproof-glass
+3,3737364,Western,bulletproof-glass,B4316,1969,"A Bullet for the President",bulletproof-glass
+3,3667122,Western,bulletproof-glass,B4316,1956,"Blood Brothers",bulletproof-glass
+3,3898890,Western,bulletproof-glass,B4316,1970,"A Bullet for Sandoval",bulletproof-glass
+3,4128415,Western,bulletproof-glass,B4316,1968,"A Bullet for the General",bulletproof-glass
+3,4128415,Western,bulletproof-glass,B4316,1966,"A Bullet for the General",bulletproof-glass
+3,4128415,Western,bulletproof-glass,B4316,1967,"A Bullet for the General",bulletproof-glass
+3,4307021,Western,bulletproof-glass,B4316,1932,"The Blood Brother",bulletproof-glass
+3,4421276,Western,bulletproof-glass,B4316,1977,"The Ballad of Virgil Cane",bulletproof-glass
+3,4498689,Western,bulletproof-glass,B4316,1966,"Blood for a Silver Dollar",bulletproof-glass
+3,4294176,Western,talent-judge,T4532,1944,"Tall in the Saddle",talent-judge
+3,3844881,Western,prize,P62,1966,"La presa",prize
+3,3320924,Western,trying-to-escape,T6523,1941,"I tre moschettieri del Missouri",trying-to-escape
+3,3994494,Western,trying-to-escape,T6523,1972,"Three Musketeers in Boots",trying-to-escape
+3,4204225,Western,trying-to-escape,T6523,1963,"Terror in Mesa City",trying-to-escape
+3,4488960,Western,trying-to-escape,T6523,1973,"Three Musketeers of the West",trying-to-escape
+3,4487368,Western,trying-to-escape,T6523,1953,"Three Were Renegades",trying-to-escape
+3,4488960,Western,trying-to-escape,T6523,1973,"The Three Musketeers of the West",trying-to-escape
+3,3458667,Western,south-korean-woman,S3265,1964,"Shots Ring Out!",south-korean-woman
+3,4250622,Western,south-korean-woman,S3265,1968,"Shoot, Gringo... Shoot!",south-korean-woman
+3,4564426,Western,south-korean-woman,S3265,2007,"Stagecoach Run",south-korean-woman
+3,3360352,Western,under-arrest,U5362,1948,"Under Arrest",under-arrest
+3,3971319,Western,under-arrest,U5362,1980,"Undercover USA",under-arrest
+3,4504485,Western,under-arrest,U5362,1934,"Under Cover",under-arrest
+3,4504485,Western,under-arrest,U5362,1936,"Under Cover",under-arrest
+3,4410781,Western,under-arrest,U5362,1958,"Unter zwei Flaggen",under-arrest
+3,4509634,Western,under-arrest,U5362,1964,"Unter Geiern",under-arrest
+3,4439309,Western,under-arrest,U5362,1926,"Der Untergang der roten Rasse",under-arrest
+3,4503495,Western,under-arrest,U5362,1948,"Under California Skies",under-arrest
+3,4503474,Western,under-arrest,U5362,1914,"Under Arizona's Skies",under-arrest
+3,4502509,Western,under-arrest,U5362,1967,"Der Untergang der Mohikaner",under-arrest
+3,4554652,Western,under-arrest,U5362,1940,"Der Untergang der Daltons",under-arrest
+3,4549660,Western,under-arrest,U5362,1923,"Under Western Skies",under-arrest
+3,4549619,Western,under-arrest,U5362,1948,"Under Arizona Skies",under-arrest
+3,3228411,Western,princess-costume,P6523,2009,"La promessa di un pistolero",princess-costume
+3,4172564,Western,princess-costume,P6523,1974,"Porno West",princess-costume
+3,4097053,Western,princess-costume,P6523,1972,"Per una manciata di soldi...",princess-costume
+3,4254633,Western,princess-costume,P6523,1939,"Prairie Nights",princess-costume
+3,4047902,Western,bacon,B25,1961,"Der Besessene",bacon
+3,4047902,Western,bacon,B25,1961,"Der Besessene",bacon
+3,4332747,Western,mother-daughter-reunion,M3632,2000,"Le maÃ®tre de Kingdom Come",mother-daughter-reunion
+3,3461545,Western,wedding-anniversary,W3525,1982,"The White Man Came",wedding-anniversary
+3,4101853,Western,wedding-anniversary,W3525,1968,"With My Guns",wedding-anniversary
+3,4557891,Western,wedding-anniversary,W3525,1910,"White Man's Money, the Red Man's Curse",wedding-anniversary
+3,3438699,Western,watching-someone-die,W3252,1968,"White Comanche",watching-someone-die
+3,3830075,Western,watching-someone-die,W3252,1968,"With Django Comes Death",watching-someone-die
+3,4090907,Western,watching-someone-die,W3252,1991,"Der weite Weg nach Westen",watching-someone-die
+3,4090907,Western,watching-someone-die,W3252,1973,"Der weite Weg nach Westen",watching-someone-die
+3,4558636,Western,watching-someone-die,W3252,1971,"Whity ging nach Osten",watching-someone-die
+3,3829182,Western,new-york-yankees,N6252,1969,"Il Nero - HaÃŸ war sein Gebet",new-york-yankees
+3,3829182,Western,new-york-yankees,N6252,2012,"Il Nero - HaÃŸ war sein Gebet",new-york-yankees
+3,4360168,Western,spanish-crisis,S1526,1913,"A Saving Service Rewarded",spanish-crisis
+3,4350573,Western,united-nations,U5353,1955,"Untamed West",united-nations
+3,4387918,Western,united-nations,U5353,1988,"The Untamed",united-nations
+3,4509530,Western,united-nations,U5353,1952,"Untamed Frontier",united-nations
+3,4509530,Western,united-nations,U5353,1952,"The Untamed",united-nations
+3,3278130,Western,anatomy-chart,A5352,1973,"Anything for a Friend",anatomy-chart
+3,3545547,Western,anatomy-chart,A5352,1968,"And Now... Make Your Peace with God",anatomy-chart
+3,3098714,Western,reporter,R1636,1962,"The Rope Riders",reporter
+3,4361602,Western,reporter,R1636,1927,"RÃ¤uber der KÃ¶nigsschlucht",reporter
+3,4444627,Western,herb,H61,1928,"Hey, Rube!",herb
+3,451532,Western,china,C5,1955,Cheyenne,china
+3,3230341,Western,china,C5,1943,Cheyenne,china
+3,3418266,Western,china,C5,1965,Cheyenne,china
+3,3418260,Western,china,C5,1947,Cheyenne,china
+3,3710793,Western,china,C5,2015,Cham,china
+3,4300331,Western,china,C5,1972,"Con Men",china
+3,4517059,Western,china,C5,1973,Chino,china
+3,4517059,Western,china,C5,1974,Chino,china
+3,4565579,Western,china,C5,1975,Cheyenne,china
+3,3418266,Western,china,C5,1965,Cheyenne,china
+3,3848732,Western,subway-train,S1365,1913,"The Subterranean City",subway-train
+3,4161964,Western,subway-train,S1365,1936,"Spider and the Fly",subway-train
+3,3804136,Western,kids,K32,1974,"Khote Sikkey",kids
+3,3455326,Western,controversy,C5361,1952,"Contrabbando per l'oriente",controversy
+3,2386058,Western,stabbed-in-the-knee,S3135,1955,"Steve Donovan: Western Ranger",stabbed-in-the-knee
+3,3441219,Western,counter-terrorism-unit,C5363,2016,"Common Threads",counter-terrorism-unit
+3,4505337,Western,counter-terrorism-unit,C5363,1969,"Cemetery Without Crosses",counter-terrorism-unit
+3,4220769,Western,berlin-germany,B6452,1972,"Die Brillenschlange und der BÃ¼ffel",berlin-germany
+3,3924622,Western,mental-disorder,M5343,1971,"Man in the Wilderness",mental-disorder
+3,3307418,Western,cocaine,C25,1912,"Chicago in 1812",cocaine
+3,3422132,Western,cocaine,C25,1970,Chisum,cocaine
+3,3455326,Western,comedy-troupe,C5361,1952,"Contrabbando per l'oriente",comedy-troupe
+3,3217352,Western,englishman-abroad,E5242,1968,"Einen Whisky als Kopfgeld",englishman-abroad
+3,3925160,Western,englishman-abroad,E5242,1956,"Der EinzelgÃ¤nger",englishman-abroad
+3,3377556,Western,insecurity,I5263,1975,"Io non credo a nessuno",insecurity
+3,4558256,Western,water-tower,W3636,1925,"The White Rider",water-tower
+3,4218947,Western,stabbed-with-a-letter-opener,S3134,1958,"Shadow of Boot Hill",stabbed-with-a-letter-opener
+3,4405446,Western,stabbed-with-a-letter-opener,S3134,1944,"La staffetta della morte",stabbed-with-a-letter-opener
+3,2083160,Western,school-counsellor,S2425,2000,"Sous le signe de l'Ã©pÃ©e",school-counsellor
+3,3280476,Western,american-secret-service,A5625,1991,"An American Tail II",american-secret-service
+3,3277399,Western,american-secret-service,A5625,2001,"American Outlaws",american-secret-service
+3,3208728,Western,american-secret-service,A5625,1986,"American Bull",american-secret-service
+3,3272123,Western,american-secret-service,A5625,1945,"American Cowboy",american-secret-service
+3,3266716,Western,american-secret-service,A5625,2017,"American Cowboys Vs. Aliens",american-secret-service
+3,4313761,Western,american-secret-service,A5625,1955,L'americano,american-secret-service
+3,4313761,Western,american-secret-service,A5625,1955,"The Americano",american-secret-service
+3,4313761,Western,american-secret-service,A5625,1955,Americano,american-secret-service
+3,4365315,Western,american-secret-service,A5625,2013,"American Cowboys",american-secret-service
+3,4454582,Western,american-secret-service,A5625,1991,"American Playhouse: Thousand Pieces of Gold",american-secret-service
+3,4405795,Western,american-secret-service,A5625,1936,"Ein amerikanisches Duell",american-secret-service
+3,4313761,Western,american-secret-service,A5625,1955,Americano,american-secret-service
+3,3576359,Western,hurt,H63,2012,"Hay Road",hurt
+3,4591502,Western,hurt,H63,1980,"Hard Way to Die",hurt
+3,3411640,Western,moonwalk-dancing,M5423,1949,"Moonlight Raid",moonwalk-dancing
+3,4260821,Western,moonwalk-dancing,M5423,1938,"Moonlight Over Texas",moonwalk-dancing
+3,4481043,Western,moonwalk-dancing,M5423,1956,"Mein Wille ist Gesetz",moonwalk-dancing
+3,3894349,Western,fall-of-berlin-wall,F4164,1927,"A Fool for Luck",fall-of-berlin-wall
+3,3393896,Western,bound-and-gagged,B5353,1999,"Bounty Hunters",bound-and-gagged
+3,3749260,Western,bound-and-gagged,B5353,1971,"The Bounty Hunters",bound-and-gagged
+3,4042963,Western,bound-and-gagged,B5353,1918,"The Bandit and the Preacher",bound-and-gagged
+3,4053610,Western,bound-and-gagged,B5353,1949,"Banditen der PrÃ¤rie",bound-and-gagged
+3,4325121,Western,bound-and-gagged,B5353,1954,"The Bounty Hunter",bound-and-gagged
+3,4498159,Western,bound-and-gagged,B5353,1972,"Bounty Hunter in Trinity",bound-and-gagged
+3,4201096,Western,murder-investigation,M6365,1936,"Murder in the Dark",murder-investigation
+3,3630538,Western,russian-agent,R2525,1950,"Rache ohne Gnade",russian-agent
+3,451532,Western,caiman,C5,1955,Cheyenne,caiman
+3,3230341,Western,caiman,C5,1943,Cheyenne,caiman
+3,3418266,Western,caiman,C5,1965,Cheyenne,caiman
+3,3418260,Western,caiman,C5,1947,Cheyenne,caiman
+3,3710793,Western,caiman,C5,2015,Cham,caiman
+3,4300331,Western,caiman,C5,1972,"Con Men",caiman
+3,4517059,Western,caiman,C5,1973,Chino,caiman
+3,4517059,Western,caiman,C5,1974,Chino,caiman
+3,4565579,Western,caiman,C5,1975,Cheyenne,caiman
+3,3418266,Western,caiman,C5,1965,Cheyenne,caiman
+3,3320929,Western,bedtime-conversation,B3525,1929,"Bad Man's Money",bedtime-conversation
+3,3321546,Western,bedtime-conversation,B3525,1958,"Badman's Country",bedtime-conversation
+3,4070002,Western,woman-wearing-a-wig,W5652,1957,"Wo MÃ¤nner noch MÃ¤nner sind",woman-wearing-a-wig
+3,4070002,Western,woman-wearing-a-wig,W5652,1956,"Wo MÃ¤nner noch MÃ¤nner sind",woman-wearing-a-wig
+3,4418534,Western,swiss-bank-account,S2152,1969,Scavengers,swiss-bank-account
+3,4418534,Western,swiss-bank-account,S2152,1969,"The Scavengers",swiss-bank-account
+3,4385280,Western,around-the-world-race,A6536,1953,"Arena der Cowboys",around-the-world-race
+3,4596393,Western,president,P6235,1943,"El paraÃ­so de MÃ©xico",president
+3,4153752,Western,co-pilot,C143,1942,"Cowboy Holiday",co-pilot
+3,3648825,Western,police-station,P4235,1968,"Piluk, the Timid One",police-station
+3,3870380,Western,police-station,P4235,2000,"Pelgidium Granger",police-station
+3,4002074,Western,organizer,O6252,2001,"Our Sunshine",organizer
+3,3376210,Western,mountain-retreat,M5356,1950,"Montana Rides",mountain-retreat
+3,3590915,Western,mountain-retreat,M5356,1951,"Mein Diener, der Herr Graf",mountain-retreat
+3,3655536,Western,mountain-retreat,M5356,1969,"Man Without Mercy",mountain-retreat
+3,4417579,Western,mountain-retreat,M5356,1932,"Montana Rides",mountain-retreat
+3,4186027,Western,cookery,C26,1966,"El Cjorro",cookery
+3,4465544,Western,leaving-message-on-answering-machine,L1525,1950,"Law of Vengeance",leaving-message-on-answering-machine
+3,2501923,Western,travel,T614,2012,"Terra ribelle 2",travel
+3,3652434,Western,pigsty,P23,1946,"Il paese di dio",pigsty
+3,4073010,Western,pigsty,P23,1951,"Passage West",pigsty
+3,3500859,Western,day-age-theory,D236,1954,Destry,day-age-theory
+3,3425661,Western,chase,C2,1967,Chuka,chase
+3,3553007,Western,chase,C2,1966,"El Cisco",chase
+3,3553007,Western,chase,C2,1966,Cisco,chase
+3,3571934,Western,speaking-korean,S1252,1971,"Savage Guns",speaking-korean
+3,4046443,Western,speaking-korean,S1252,1971,"Uno spaccone chiamato Hark",speaking-korean
+3,4426126,Western,speaking-korean,S1252,1974,"The Spikes Gang",speaking-korean
+3,4458899,Western,speaking-korean,S1252,1962,"The Savage Guns",speaking-korean
+3,3727510,Western,sobbing-female,S1521,1975,"Seven Savage Men",sobbing-female
+3,4204448,Western,sobbing-female,S1521,1960,"Seven Ways from Sundown",sobbing-female
+3,4092080,Western,sobbing-female,S1521,1967,"Seven Zapata",sobbing-female
+3,4178811,Western,sobbing-female,S1521,2011,"Saving Private Perez",sobbing-female
+3,4218945,Western,gaming,G52,1956,"Gun Shy",gaming
+3,4439133,Western,gaming,G52,1969,Gwangi,gaming
+3,4363249,Western,gaming,G52,1963,"The Gun Hawk",gaming
+3,4499150,Western,gaming,G52,1977,"The Genius",gaming
+3,3395333,Western,spoiled-child,S1432,1977,"Spiel das Lied von Californien",spoiled-child
+3,4073449,Western,possum,P25,1954,Passion,possum
+3,3319664,Western,gay-minister,G5236,1956,"Das Geheimnis der fÃ¼nf GrÃ¤ber",gay-minister
+3,3319664,Western,gay-minister,G5236,1956,"Das Geheimnis der 5 GrÃ¤ber",gay-minister
+3,3438431,Western,gay-minister,G5236,1953,"Das Geheimnis der schwarzen Bande",gay-minister
+3,3626632,Western,gay-minister,G5236,1934,"Das Geheimnis der Goldmine",gay-minister
+3,3667700,Western,gay-minister,G5236,1957,"Gunsight Ridge",gay-minister
+3,3667214,Western,gay-minister,G5236,1931,"Gangsterterror in Texas",gay-minister
+3,3898910,Western,gay-minister,G5236,1963,"Das Geheimnis der 14 Geisterreiter",gay-minister
+3,3935538,Western,gay-minister,G5236,1957,"Gangster, Spieler und ein Sheriff",gay-minister
+3,4196019,Western,gay-minister,G5236,1937,"Gangster's Valley",gay-minister
+3,4196019,Western,gay-minister,G5236,1937,"Gangster's Bride",gay-minister
+3,4244531,Western,gay-minister,G5236,1951,"Das Geheimnis der schwarzen Maske",gay-minister
+3,4261860,Western,gay-minister,G5236,1950,"Gangster der PrÃ¤rie",gay-minister
+3,4321802,Western,gay-minister,G5236,1953,"Das Geheimnis der Indianerin",gay-minister
+3,4307050,Western,gay-minister,G5236,1935,"I gangsters del Texas",gay-minister
+3,4475787,Western,gay-minister,G5236,1935,"Gangster's Enemy Number One",gay-minister
+3,4376252,Western,gay-minister,G5236,1929,"Das Geheimnis der HÃ¶llenschlucht",gay-minister
+3,4442490,Western,gay-minister,G5236,2011,"The Gunstringer: The Wavy Tube Man Chronicles",gay-minister
+3,4445935,Western,gay-minister,G5236,1943,"The Gunmaster",gay-minister
+3,3319664,Western,gay-minister,G5236,1956,"Das Geheimnis der fÃ¼nf GrÃ¤ber",gay-minister
+3,3935538,Western,gay-minister,G5236,1954,"Gangster, Spieler und ein Sheriff",gay-minister
+3,4321802,Western,gay-minister,G5236,1952,"Das Geheimnis der Indianerin",gay-minister
+3,4562271,Western,gay-minister,G5236,1949,Gangsterflucht,gay-minister
+3,4406233,Western,planet-earth,P4536,1961,"Die PlÃ¼nderer",planet-earth
+3,4406232,Western,planet-earth,P4536,1952,"Der PlÃ¼nderer von Nevada",planet-earth
+3,4406232,Western,planet-earth,P4536,1952,"Die PlÃ¼nderer von Nevada",planet-earth
+3,4406233,Western,planet-earth,P4536,1960,"The Plunderers",planet-earth
+3,4406233,Western,planet-earth,P4536,1960,"Die PlÃ¼nderer",planet-earth
+3,3460924,Western,crucifix-pendant,C6212,2014,"Curio Shop: A Post Apocalyptic Acid Western",crucifix-pendant
+3,3840105,Western,crucifix-pendant,C6212,1965,"The Curse of Gold",crucifix-pendant
+3,4426427,Western,motorcycle-shop,M3624,1956,"Mit roher Gewalt",motorcycle-shop
+3,4306450,Western,headquarters,H3263,1969,"Heads or Tails",headquarters
+3,3883729,Western,murder-suspect,M6362,1933,"Der MÃ¶rder aus der Mexiko-Bar",murder-suspect
+3,3933322,Western,murder-suspect,M6362,1915,"The Martyrs of the Alamo",murder-suspect
+3,4071751,Western,murder-suspect,M6362,1935,"Die MÃ¶rderspur",murder-suspect
+3,4389247,Western,murder-suspect,M6362,1955,"The Marauders",murder-suspect
+3,3228411,Western,pouring-a-drink-over-someone,P6523,2009,"La promessa di un pistolero",pouring-a-drink-over-someone
+3,4172564,Western,pouring-a-drink-over-someone,P6523,1974,"Porno West",pouring-a-drink-over-someone
+3,4097053,Western,pouring-a-drink-over-someone,P6523,1972,"Per una manciata di soldi...",pouring-a-drink-over-someone
+3,4254633,Western,pouring-a-drink-over-someone,P6523,1939,"Prairie Nights",pouring-a-drink-over-someone
+3,3595998,Western,patricide,P3623,1968,"Phaedra West",patricide
+3,3728144,Western,sex-on-a-table,S2531,1969,"Schweinehunde beten nicht",sex-on-a-table
+3,4418579,Western,sex-on-a-table,S2531,2017,"The Scent of Rain & Lightning",sex-on-a-table
+3,4418579,Western,sex-on-a-table,S2531,2016,"The Scent of Rain & Lightning",sex-on-a-table
+3,4411009,Western,spouse-abuse,S1212,1969,"Savage Passion",spouse-abuse
+3,3665558,Western,minute-men,M535,1976,"Mountain Man",minute-men
+3,3774867,Western,minute-men,M535,1972,"The Mountain Man",minute-men
+3,3969321,Western,minute-men,M535,1950,Montana,minute-men
+3,3969352,Western,minute-men,M535,1930,Montana,minute-men
+3,3217217,Western,shooting-a-surveillance-camera,S3526,1967,"Siete mujeres para los Mac Gregor",shooting-a-surveillance-camera
+3,4068307,Western,shooting-a-surveillance-camera,S3526,1930,"Der Satansreiter",shooting-a-surveillance-camera
+3,4363249,Western,shooting-a-surveillance-camera,S3526,1964,"Stadt ohne Sheriff",shooting-a-surveillance-camera
+3,4068307,Western,shooting-a-surveillance-camera,S3526,1930,"Der Satansreiter",shooting-a-surveillance-camera
+3,4363249,Western,shooting-a-surveillance-camera,S3526,1963,"Stadt ohne Sheriff",shooting-a-surveillance-camera
+3,3381711,Western,blood-brothers,B4316,1950,"Blood Brothers",blood-brothers
+3,3366180,Western,blood-brothers,B4316,1975,"Blood Brothers",blood-brothers
+3,3386971,Western,blood-brothers,B4316,1964,"Bullet for a Badman",blood-brothers
+3,3650134,Western,blood-brothers,B4316,1971,"Bullet for a Stranger",blood-brothers
+3,3650134,Western,blood-brothers,B4316,1971,"A Bullet for a Stranger",blood-brothers
+3,3630538,Western,blood-brothers,B4316,1948,"The Ballad of Furnace Creek",blood-brothers
+3,3737364,Western,blood-brothers,B4316,1969,"A Bullet for the President",blood-brothers
+3,3667122,Western,blood-brothers,B4316,1956,"Blood Brothers",blood-brothers
+3,3898890,Western,blood-brothers,B4316,1970,"A Bullet for Sandoval",blood-brothers
+3,4128415,Western,blood-brothers,B4316,1968,"A Bullet for the General",blood-brothers
+3,4128415,Western,blood-brothers,B4316,1966,"A Bullet for the General",blood-brothers
+3,4128415,Western,blood-brothers,B4316,1967,"A Bullet for the General",blood-brothers
+3,4307021,Western,blood-brothers,B4316,1932,"The Blood Brother",blood-brothers
+3,4421276,Western,blood-brothers,B4316,1977,"The Ballad of Virgil Cane",blood-brothers
+3,4498689,Western,blood-brothers,B4316,1966,"Blood for a Silver Dollar",blood-brothers
+3,3388087,Western,purse-snatcher,P6253,1971,"A Present for You, Amigo... A Coffin from Sartana",purse-snatcher
+3,3846748,Western,purse-snatcher,P6253,1971,"El puro se sienta, espera y dispara",purse-snatcher
+3,4121187,Western,purse-snatcher,P6253,1992,"Pure Country",purse-snatcher
+3,4232382,Western,purse-snatcher,P6253,1964,"Proc Sandy nechal vychladnout svÃ© pistole",purse-snatcher
+3,4277597,Western,purse-snatcher,P6253,1939,"Prairie Sundown",purse-snatcher
+3,3436962,Western,cleaning-crew,C4526,1958,"Cole Younger, Gunfighter",cleaning-crew
+3,4243293,Western,boa-constrictor,B2523,1968,"Big John macht Dampf",boa-constrictor
+3,4444503,Western,boa-constrictor,B2523,1959,"The Buckskin Kid and the Calico Gal",boa-constrictor
+3,3694470,Western,surgeon-general,S6252,1973,"The Shrieking",surgeon-general
+3,3995352,Western,surgeon-general,S6252,1956,"Sarazin Curse",surgeon-general
+3,3381711,Western,arrow,A6,1950,Arrow,arrow
+3,3636122,Western,volcano,V425,1954,Volcano,volcano
+3,3355179,Western,southern-accent,S3652,1975,"Stringi i denti e vai!",southern-accent
+3,3239926,Western,southern-accent,S3652,1948,"A Southern Yankee",southern-accent
+3,3388087,Western,southern-accent,S3652,1970,"Stranger's Gold",southern-accent
+3,3458667,Western,southern-accent,S3652,1963,"Si udirono quattro colpi di fucile",southern-accent
+3,3555715,Western,southern-accent,S3652,1976,"The Stranger and the Gunfighter",southern-accent
+3,3519397,Western,southern-accent,S3652,1969,"Stranger's Gundown",southern-accent
+3,3642484,Western,southern-accent,S3652,1975,"The Stranger Gets Mean",southern-accent
+3,3555715,Western,southern-accent,S3652,1974,"The Stranger and the Gunfighter",southern-accent
+3,3519397,Western,southern-accent,S3652,1974,"The Strangers Gundown",southern-accent
+3,3545547,Western,southern-accent,S3652,1968,"Stranger Say Your Prayers",southern-accent
+3,3649270,Western,southern-accent,S3652,1971,"Strange Tale of Minnesota Stinky",southern-accent
+3,3667700,Western,southern-accent,S3652,1957,"Stranger at Soldiers' Springs",southern-accent
+3,3750575,Western,southern-accent,S3652,1970,"Stranger That Kneels Beside the Shadow of a Corpse",southern-accent
+3,3893563,Western,southern-accent,S3652,1967,"The Stranger in Japan",southern-accent
+3,4016453,Western,southern-accent,S3652,1959,"Stranger from Nowhere",southern-accent
+3,4268518,Western,southern-accent,S3652,1956,"Stranger at My Door",southern-accent
+3,4331385,Western,southern-accent,S3652,1937,"Strange Laws",southern-accent
+3,4351820,Western,southern-accent,S3652,1949,"A Strange Caravan",southern-accent
+3,4268594,Western,southern-accent,S3652,1967,"Stranger on the Run",southern-accent
+3,4355399,Western,southern-accent,S3652,NULL,"The Strange Cowboy",southern-accent
+3,4331382,Western,southern-accent,S3652,1927,"The Stranger",southern-accent
+3,4268303,Western,southern-accent,S3652,1955,"Strange Lady in Town",southern-accent
+3,4221633,Western,southern-accent,S3652,1974,"Una strana coppia",southern-accent
+3,4269579,Western,southern-accent,S3652,2015,"Streams Volume 1",southern-accent
+3,4429330,Western,southern-accent,S3652,1994,"Una strana storia d'amore",southern-accent
+3,4428661,Western,southern-accent,S3652,1953,"The Stranger Wore a Gun",southern-accent
+3,4500781,Western,southern-accent,S3652,1968,"The Stranger Returns",southern-accent
+3,4428639,Western,southern-accent,S3652,1939,"The Stranger",southern-accent
+3,4421668,Western,southern-accent,S3652,1958,"Stranger with a Gun",southern-accent
+3,4371839,Western,southern-accent,S3652,1950,"Sterminio sul grande sentiero",southern-accent
+3,4498692,Western,southern-accent,S3652,1967,"A Stranger in Town",southern-accent
+3,4498692,Western,southern-accent,S3652,2011,"A Stranger in Town",southern-accent
+3,4500781,Western,southern-accent,S3652,1967,"The Stranger Returns",southern-accent
+3,4498692,Western,southern-accent,S3652,1968,"A Stranger in Town",southern-accent
+3,4508628,Western,southern-accent,S3652,1965,"Stranger in Sacramento",southern-accent
+3,4401629,Western,southern-accent,S3652,1943,"Strange Incident",southern-accent
+3,4508627,Western,southern-accent,S3652,1968,"A Stranger in Paso Bravo",southern-accent
+3,4419630,Western,southern-accent,S3652,1961,"Ein Stern im Westen",southern-accent
+3,3211275,Western,snakes,S52,2016,"24 snega",snakes
+3,3640704,Western,snakes,S52,1968,Shamango,snakes
+3,3736681,Western,snakes,S52,1973,"Shanghai Joe",snakes
+3,3736681,Western,snakes,S52,1976,"Shanghai Joe",snakes
+3,4179209,Western,snakes,S52,1969,"Sam Whiskey",snakes
+3,4179209,Western,snakes,S52,1969,"Sam Whisky",snakes
+3,4210032,Western,snakes,S52,1970,Shango,snakes
+3,3890708,Western,character-appears-on-tv,C6236,1967,"Crazy Westerners",character-appears-on-tv
+3,4331383,Western,character-appears-on-tv,C6236,2001,"Cherokee Kid - Der Racheengel",character-appears-on-tv
+3,4401449,Western,character-appears-on-tv,C6236,1991,"Carrasco, der SchÃ¤nder",character-appears-on-tv
+3,4401449,Western,character-appears-on-tv,C6236,1965,"Carrasco, der SchÃ¤nder",character-appears-on-tv
+3,4401449,Western,character-appears-on-tv,C6236,1964,"Carrasco, der SchÃ¤nder",character-appears-on-tv
+3,4557095,Western,whispering-into-someone's-ear,W2165,1948,"Whispering Smith",whispering-into-someone's-ear
+3,733653,Western,drag-queen,D625,1993,"Dr. Quinn",drag-queen
+3,3439307,Western,interracial-adoption,I5362,1965,"In der Schlucht von Manzanita",interracial-adoption
+3,3538074,Western,interracial-adoption,I5362,1995,"Die Intrige der Lily Scarlett",interracial-adoption
+3,4184016,Western,interracial-adoption,I5362,1948,"Die Intrigantin von Saratoga",interracial-adoption
+3,4278040,Western,interracial-adoption,I5362,1988,"Intrigo a Hollywood",interracial-adoption
+3,3538074,Western,interracial-adoption,I5362,1955,"Die Intrige der Lily Scarlett",interracial-adoption
+3,3217352,Western,handcuffed-woman,H5321,1967,"Hondo dispara mÃ¡s fuerte",handcuffed-woman
+3,3710745,Western,handcuffed-woman,H5321,1967,Huntsville,handcuffed-woman
+3,4033747,Western,handcuffed-woman,H5321,1965,"Hands of a Gunfighter",handcuffed-woman
+3,4272881,Western,handcuffed-woman,H5321,2016,"Hands Up Dead Man",handcuffed-woman
+3,3269813,Western,growing-a-moustache,G6525,1970,"Den Geiern zum FraÃŸ",growing-a-moustache
+3,3510493,Western,growing-a-moustache,G6525,1965,"I Gringos non perdonano",growing-a-moustache
+3,3636498,Western,growing-a-moustache,G6525,1969,"Garringo: I morti non si contano",growing-a-moustache
+3,3900228,Western,bribe-attempt,B6135,1962,"The Brave Don't Die",bribe-attempt
+3,4430826,Western,fugitive,F231,1915,"The Fugitive",fugitive
+3,4401906,Western,list-of-names,L2315,1951,"Lassie's Adventures in the Goldrush",list-of-names
+3,4249943,Western,safe-cracking,S1262,1985,"Spage Rage: Breakout on Prison Planet",safe-cracking
+3,3201515,Western,underdog-loses,U5363,2006,"Unter dem Himmel von Arizona",underdog-loses
+3,3430630,Western,underdog-loses,U5363,1928,"Unter den WÃ¶lfen der Sierra",underdog-loses
+3,3414086,Western,underdog-loses,U5363,1974,"Unter tÃ¶dlicher Sonne",underdog-loses
+3,4324843,Western,underdog-loses,U5363,1930,"Unter den Schmugglern von Rimrock",underdog-loses
+3,4437783,Western,underdog-loses,U5363,1915,"The Undertaker's Wife",underdog-loses
+3,4437782,Western,underdog-loses,U5363,2017,"The Undertaker's Son",underdog-loses
+3,4492476,Western,underdog-loses,U5363,1922,"Under Orders",underdog-loses
+3,4384571,Western,underdog-loses,U5363,1916,"Under the Mask",underdog-loses
+3,4562268,Western,underdog-loses,U5363,1925,"Unter den Pferdedieben Arizonas",underdog-loses
+3,3365490,Western,face-sitting,F2352,1920,"Fighting Job",face-sitting
+3,3417681,Western,face-sitting,F2352,1940,"Fighting Marshal",face-sitting
+3,3600802,Western,face-sitting,F2352,1935,"Fighting Kit Carson",face-sitting
+3,3600516,Western,face-sitting,F2352,1927,"Fighting Jack",face-sitting
+3,3600704,Western,face-sitting,F2352,1949,"Fighting Man of the Plains",face-sitting
+3,3736681,Western,face-sitting,F2352,1973,"The Fighting Fists of Shangai Joe",face-sitting
+3,3889466,Western,face-sitting,F2352,1951,"The Fighting Seventh",face-sitting
+3,3809018,Western,face-sitting,F2352,1960,"Fest im Sattel",face-sitting
+3,3957682,Western,face-sitting,F2352,1989,"The Fighting Creed",face-sitting
+3,4059195,Western,face-sitting,F2352,1935,"Fighting Fury",face-sitting
+3,4161327,Western,face-sitting,F2352,1950,"Fighting Westerner",face-sitting
+3,4331450,Western,face-sitting,F2352,1930,"The Fighting Test",face-sitting
+3,4294176,Western,face-sitting,F2352,2010,"Fest im Sattel",face-sitting
+3,4351834,Western,face-sitting,F2352,1931,"Fighting Marshall",face-sitting
+3,4351820,Western,face-sitting,F2352,1949,"The Fighting Kentuckian",face-sitting
+3,4268266,Western,face-sitting,F2352,1954,"The Fighting Texan",face-sitting
+3,4357296,Western,face-sitting,F2352,1946,"The Fighting Texan",face-sitting
+3,4395245,Western,face-sitting,F2352,1952,"The Fighting Phantom",face-sitting
+3,4395245,Western,face-sitting,F2352,1955,"The Fighting Phantom",face-sitting
+3,4418867,Western,face-sitting,F2352,1917,"Fighting Fists",face-sitting
+3,4432330,Western,face-sitting,F2352,1931,"Fighting Patrol",face-sitting
+3,4406263,Western,face-sitting,F2352,1931,"Fighting Mad",face-sitting
+3,3858587,Western,diabetic,D132,1976,"The Deputies",diabetic
+3,3441219,Western,counter-terrorist,C5363,2016,"Common Threads",counter-terrorist
+3,4505337,Western,counter-terrorist,C5363,1969,"Cemetery Without Crosses",counter-terrorist
+3,3441219,Western,counter-terrorism,C5363,2016,"Common Threads",counter-terrorism
+3,4505337,Western,counter-terrorism,C5363,1969,"Cemetery Without Crosses",counter-terrorism
+3,3385868,Western,attacked-from-behind,A3231,1965,"L'attaque de Fort Adams",attacked-from-behind
+3,4023033,Western,heisman-trophy,H2536,1924,"High on the Range",heisman-trophy
+3,2095458,Western,tango,T52,1957,Tomahawk,tango
+3,3851825,Western,tango,T52,1992,Tomahawk,tango
+3,4469451,Western,tango,T52,1958,Tonka,tango
+3,4468347,Western,tango,T52,1951,Tomahawk,tango
+3,3969333,Western,ski-instructor,S2523,1953,"Die SchÃ¶nste von Montana",ski-instructor
+3,4097944,Western,ski-instructor,S2523,2008,"Uno sconosciuto alla mia porta",ski-instructor
+3,4318056,Western,ski-instructor,S2523,1916,"La scommessa del bandito",ski-instructor
+3,4268518,Western,ski-instructor,S2523,1956,"Uno sconosciuto alla mia porta",ski-instructor
+3,3251237,Western,walking-away-from-someone,W4252,1941,"Welcome Stranger",walking-away-from-someone
+3,4181140,Western,walking-away-from-someone,W4252,1949,"Will James' Sand",walking-away-from-someone
+3,4236148,Western,walking-away-from-someone,W4252,1933,"Will James' Smoky",walking-away-from-someone
+3,4441506,Western,walking-away-from-someone,W4252,1949,"The Walking Hills",walking-away-from-someone
+3,3751330,Western,dead-mother,D3536,1975,"Death Hunter",dead-mother
+3,2519558,Western,convention,C5153,2005,"Champion the Wonder Horse",convention
+3,3254297,Western,convention,C5153,1964,"Compania di codardi?",convention
+3,3339928,Western,convention,C5153,1947,"Le campane di San Ferdinando",convention
+3,3893230,Western,convention,C5153,1973,"Lo chiamavano Tresette...",convention
+3,3383308,Western,brother-shoots-brother,B6362,2005,"Brothers in Arms: WaffenbrÃ¼der",brother-shoots-brother
+3,3364599,Western,brother-shoots-brother,B6362,1973,"Brothers Blue",brother-shoots-brother
+3,3383357,Western,brother-shoots-brother,B6362,NULL,"Brothers James",brother-shoots-brother
+3,4158813,Western,brother-shoots-brother,B6362,1933,"Barriere d'orgoglio",brother-shoots-brother
+3,3227577,Western,girl-in-danger,G6453,2015,"A Girl and a Gun",girl-in-danger
+3,3663246,Western,girl-in-danger,G6453,2000,"Grey Owl und der Schatz der Biber",girl-in-danger
+3,4358649,Western,girl-in-danger,G6453,1914,"The Girl and the Stage Driver",girl-in-danger
+3,4358130,Western,girl-in-danger,G6453,1912,"The Girl and the Cow Boy",girl-in-danger
+3,3919564,Western,wealthy-family,W4315,1964,"Der Wilde von Montana",wealthy-family
+3,4444519,Western,wealthy-family,W4315,1991,"The Wild Bunch - Sie kannten kein Gesetz",wealthy-family
+3,4444519,Western,wealthy-family,W4315,1969,"The Wild Bunch - Sie kannten kein Gesetz",wealthy-family
+3,4444519,Western,wealthy-family,W4315,1969,"The Wild Bunch",wealthy-family
+3,4444519,Western,wealthy-family,W4315,1969,"The Wild Bunch - Sie kannten kein Gesetz",wealthy-family
+3,3919564,Western,wealthy-family,W4315,1964,"Der Wilde von Montana",wealthy-family
+3,4433369,Western,port-of-long-beach-california,P6314,1925,PrÃ¤rieteufel,port-of-long-beach-california
+3,3494366,Western,infertility,I5163,1936,"L'imperatore della California",infertility
+3,3595998,Western,infertility,I5163,1968,"Io non perdono... uccido",infertility
+3,3502772,Western,double-standard,D1423,1950,"Devil's Doorway",double-standard
+3,3559771,Western,double-standard,D1423,1958,"Los diablos de la pradera",double-standard
+3,4184758,Western,double-standard,D1423,1949,"The Devil's Den",double-standard
+3,4342418,Western,double-standard,D1423,1942,"Devil's Trail",double-standard
+3,4391006,Western,double-standard,D1423,2013,"Devil's Deal",double-standard
+3,4494947,Western,outlaw,O34,1978,Outlaw,outlaw
+3,3217352,Western,handcuffs,H5321,1967,"Hondo dispara mÃ¡s fuerte",handcuffs
+3,3710745,Western,handcuffs,H5321,1967,Huntsville,handcuffs
+3,4033747,Western,handcuffs,H5321,1965,"Hands of a Gunfighter",handcuffs
+3,4272881,Western,handcuffs,H5321,2016,"Hands Up Dead Man",handcuffs
+3,3319330,Western,tree,T6,1990,Three,tree
+3,3669084,Western,tree,T6,1954,Treue,tree
+3,3669084,Western,tree,T6,1954,Treue,tree
+3,4222103,Western,shower,S6,1950,Sierra,shower
+3,473592,Western,crush-on-teacher,C6253,1957,"Corky und der Zirkus",crush-on-teacher
+3,3455353,Western,crush-on-teacher,C6253,1968,"Chrysanthemums for a Bunch of Swine",crush-on-teacher
+3,3559999,Western,crush-on-teacher,C6253,2002,"CorazÃ³n de fuego",crush-on-teacher
+3,3557791,Western,crush-on-teacher,C6253,1939,"El charro cantor",crush-on-teacher
+3,3545061,Western,war-on-terrorism,W6536,2016,"War on the Range",war-on-terrorism
+3,3300617,Western,freezing-to-death,F6252,1953,"La freccia insanguinata",freezing-to-death
+3,3618311,Western,freezing-to-death,F6252,1954,"Four Guns to the Border",freezing-to-death
+3,3650251,Western,freezing-to-death,F6252,1968,"Les forcenÃ©s",freezing-to-death
+3,4350573,Western,freezing-to-death,F6252,1955,"The Far Horizons",freezing-to-death
+3,4249943,Western,parking-structure,P6252,1985,"Proxima Centauri 3 - Revolte im All",parking-structure
+3,4249943,Western,parking-structure,P6252,1985,"Proxima Centauri 3 - Revolte im All",parking-structure
+3,3352073,Western,bleachers,B4262,1909,"Bill Sharkey's Revenge",bleachers
+3,3357504,Western,bleachers,B4262,1954,"Black Horse Canyon",bleachers
+3,3406931,Western,bleachers,B4262,1988,"Black Rage",bleachers
+3,3514664,Western,bleachers,B4262,1970,Bleigericht,bleachers
+3,3831731,Western,boy-scout,B23,1970,"Die Bestie",boy-scout
+3,3831731,Western,boy-scout,B23,1970,"The Beast",boy-scout
+3,3217425,Western,balkan-war,B4256,1968,"Blake's Marauders",balkan-war
+3,4081005,Western,balkan-war,B4256,1967,"Blue Summer",balkan-war
+3,4542207,Western,weather-forecast,W3616,1939,"Water for Canitoga",weather-forecast
+3,3744043,Western,choked-to-death,C23,1928,"The Cisco Kid",choked-to-death
+3,4018198,Western,herd-of-sheep,H6312,1944,"Heart of a Gaucho",herd-of-sheep
+3,4267227,Western,herd-of-sheep,H6312,1935,"Heart of a Stallion",herd-of-sheep
+3,4262159,Western,herd-of-sheep,H6312,1989,"Harte FÃ¤uste, heiÃŸe Lieder",herd-of-sheep
+3,4262159,Western,herd-of-sheep,H6312,1968,"Harte FÃ¤uste, heiÃŸe Lieder",herd-of-sheep
+3,3458658,Western,drought,D623,2011,Drought,drought
+3,4377920,Western,age-difference,A2316,1951,"L'assedio di Fort Point",age-difference
+3,3394695,Western,clint-eastwood-spoof,C4532,1973,"Cahill United States Marshall",clint-eastwood-spoof
+3,3395081,Western,clint-eastwood-spoof,C4532,2014,"Calamity Jane: Wild West Legend",clint-eastwood-spoof
+3,3395081,Western,clint-eastwood-spoof,C4532,2014,"Calamity Jane: Legend of the West",clint-eastwood-spoof
+3,3395076,Western,clint-eastwood-spoof,C4532,1998,"Calamity Jane - Sola contro tutti",clint-eastwood-spoof
+3,3395079,Western,clint-eastwood-spoof,C4532,1949,"Calamity Jane and Sam Bass",clint-eastwood-spoof
+3,3394695,Western,clint-eastwood-spoof,C4532,1973,"Cahill: United States Marshal",clint-eastwood-spoof
+3,3395079,Western,clint-eastwood-spoof,C4532,1993,"Calamity Jane und Sam Bass",clint-eastwood-spoof
+3,3432226,Western,clint-eastwood-spoof,C4532,1967,"Clint the Stranger",clint-eastwood-spoof
+3,3395078,Western,clint-eastwood-spoof,C4532,2004,"Calamity Jane: sola contro tutti",clint-eastwood-spoof
+3,3395081,Western,clint-eastwood-spoof,C4532,2014,"Calamity Jane - Cowgirl, Hure, Heldin",clint-eastwood-spoof
+3,3833832,Western,clint-eastwood-spoof,C4532,1969,"La collina degli stivali (subtitle Boot Hill)",clint-eastwood-spoof
+3,4432304,Western,clint-eastwood-spoof,C4532,1952,"Calamity Jane and the Texan",clint-eastwood-spoof
+3,4490087,Western,professor,P6126,1947,"Prairie Buckaroos",professor
+3,3377556,Western,stand-up-comedy,S3531,1975,"Showdown at Breakheart Pass",stand-up-comedy
+3,4218947,Western,stand-up-comedy,S3531,1958,"Showdown at Boot Hill",stand-up-comedy
+3,4218945,Western,stand-up-comedy,S3531,1956,"Showdown at Abilene",stand-up-comedy
+3,4426937,Western,stand-up-comedy,S3531,1953,"The Stand at Apache River",stand-up-comedy
+3,3362590,Western,first-wife,F6231,1958,"La freccia di fuoco",first-wife
+3,3385204,Western,first-wife,F6231,1943,"Fracht fÃ¼r Missouri",first-wife
+3,4441631,Western,first-wife,F6231,1921,"Un fracco di botte",first-wife
+3,4429811,Western,first-wife,F6231,1950,"La frusta di fuoco",first-wife
+3,4175224,Western,wealthy-parent,W4316,2008,"I Will Wait for You... If It Takes Forever",wealthy-parent
+3,4414033,Western,wealthy-parent,W4316,1952,Wildfeuer,wealthy-parent
+3,4517059,Western,wealthy-parent,W4316,1991,"Wilde Pferde",wealthy-parent
+3,4517059,Western,wealthy-parent,W4316,1973,"Wilde Pferde",wealthy-parent
+3,4414033,Western,wealthy-parent,W4316,1952,"Wildfeuer, der schwarze Hengst",wealthy-parent
+3,4562865,Western,wealthy-parent,W4316,1945,"Wildfire: The Story of a Horse",wealthy-parent
+3,4517059,Western,wealthy-parent,W4316,1973,"Wilde Pferde",wealthy-parent
+3,3228411,Western,prime-minister,P6523,2009,"La promessa di un pistolero",prime-minister
+3,4172564,Western,prime-minister,P6523,1974,"Porno West",prime-minister
+3,4097053,Western,prime-minister,P6523,1972,"Per una manciata di soldi...",prime-minister
+3,4254633,Western,prime-minister,P6523,1939,"Prairie Nights",prime-minister
+3,3215172,Western,first-anniversary,F6235,2015,Forgotten,first-anniversary
+3,3407476,Western,first-anniversary,F6235,1958,"FÃ¼r Recht und Gesetz",first-anniversary
+3,3616428,Western,first-anniversary,F6235,1923,"Forgetting the Law",first-anniversary
+3,3781514,Western,first-anniversary,F6235,1965,"Les frÃ¨res Dynamite",first-anniversary
+3,3737233,Western,first-anniversary,F6235,1969,"Forgotten Pistolero",first-anniversary
+3,3930191,Western,first-anniversary,F6235,1909,"Forced Into Marriage",first-anniversary
+3,4059157,Western,first-anniversary,F6235,1949,"La frusta nera",first-anniversary
+3,4213767,Western,first-anniversary,F6235,1958,"FÃ¼r Recht und Gesetz",first-anniversary
+3,4454864,Western,first-anniversary,F6235,1975,"Friss den Staub von meinen Stiefeln",first-anniversary
+3,4594357,Western,first-anniversary,F6235,1944,"La frusta nera di Zorro",first-anniversary
+3,3883729,Western,murder-or-suicide,M6362,1933,"Der MÃ¶rder aus der Mexiko-Bar",murder-or-suicide
+3,3933322,Western,murder-or-suicide,M6362,1915,"The Martyrs of the Alamo",murder-or-suicide
+3,4071751,Western,murder-or-suicide,M6362,1935,"Die MÃ¶rderspur",murder-or-suicide
+3,4389247,Western,murder-or-suicide,M6362,1955,"The Marauders",murder-or-suicide
+3,4369676,Western,impersonating-someone,I5162,1915,"The Impression of Tom",impersonating-someone
+3,4494576,Western,tequila,T24,1974,Tequila,tequila
+3,4508643,Western,tequila,T24,1973,Tequila!,tequila
+3,4414279,Western,tequila,T24,1965,"La taglia",tequila
+3,4508643,Western,tequila,T24,1973,Tequila,tequila
+3,3496336,Western,sexist,S23,1983,"The Scout",sexist
+3,4422084,Western,sexism,S25,1969,"Das SchieÃŸen",sexism
+3,678366,Western,leather-jacket,L3623,1969,"Die Lederstrumpf ErzÃ¤hlungen",leather-jacket
+3,678366,Western,leather-jacket,L3623,1969,"Die LederstrumpferzÃ¤hlungen",leather-jacket
+3,678366,Western,leather-jacket,L3623,1969,"The Leatherstocking Tales",leather-jacket
+3,678368,Western,leather-jacket,L3623,NULL,"Die LederstrumpferzÃ¤hlungen: Der letzte Mohikaner",leather-jacket
+3,4341038,Western,leather-jacket,L3623,1957,"Lederstrumpf - Der WildtÃ¶ter",leather-jacket
+3,4341038,Western,leather-jacket,L3623,1957,Lederstrumpf,leather-jacket
+3,4502509,Western,leather-jacket,L3623,1976,"Lederstrumpf - Der letzte Mohikaner",leather-jacket
+3,4341038,Western,leather-jacket,L3623,1957,"Lederstrumpf - Der WildtÃ¶ter",leather-jacket
+3,826430,Western,busy,B2,1962,"Big G",busy
+3,3349891,Western,busy,B2,1971,"Big Jake",busy
+3,3372950,Western,busy,B2,1975,Boss,busy
+3,3661055,Western,busy,B2,2011,"The Back 40",busy
+3,4321802,Western,busy,B2,1952,"The Big Sky",busy
+3,3439307,Western,interrogation-room,I5362,1965,"In der Schlucht von Manzanita",interrogation-room
+3,3538074,Western,interrogation-room,I5362,1995,"Die Intrige der Lily Scarlett",interrogation-room
+3,4184016,Western,interrogation-room,I5362,1948,"Die Intrigantin von Saratoga",interrogation-room
+3,4278040,Western,interrogation-room,I5362,1988,"Intrigo a Hollywood",interrogation-room
+3,3538074,Western,interrogation-room,I5362,1955,"Die Intrige der Lily Scarlett",interrogation-room
+3,47851,Western,menu,M5,1991,"Der Mann ohne Namen",menu
+3,47851,Western,menu,M5,1967,"Der Mann ohne Namen",menu
+3,4047902,Western,buxom,B25,1961,"Der Besessene",buxom
+3,4047902,Western,buxom,B25,1961,"Der Besessene",buxom
+3,3558191,Western,rich,R2,1967,Rojo,rich
+3,3699373,Western,marriage-counseling,M6252,1916,"Murray's Mixup",marriage-counseling
+3,3971432,Western,marriage-counseling,M6252,NULL,"Morgan Kane: The Legend Begins",marriage-counseling
+3,4020364,Western,marriage-counseling,M6252,1960,"Morgen sollst Du sterben",marriage-counseling
+3,4486393,Western,marriage-counseling,M6252,1972,"My Horse, My Gun, Your Widow",marriage-counseling
+3,3254729,Western,doublecross,D1426,1934,"Double Cross",doublecross
+3,3405271,Western,doublecross,D1426,1915,"Double Crossed",doublecross
+3,3617193,Western,doublecross,D1426,2004,"Devil's Raiders",doublecross
+3,3373186,Western,clumsiness,C4525,1925,"The Claim Jumper",clumsiness
+3,3802816,Western,clumsiness,C4525,1977,"Coolman Keoma",clumsiness
+3,3927570,Western,clumsiness,C4525,1970,"Clumsy Hands",clumsiness
+3,4332752,Western,clumsiness,C4525,1911,"The Claim Jumpers",clumsiness
+3,4345497,Western,clumsiness,C4525,1952,"Claim Jumpers",clumsiness
+3,4332754,Western,clumsiness,C4525,1913,"The Claim Jumpers",clumsiness
+3,4441506,Western,clumsiness,C4525,1949,"Le colline camminano",clumsiness
+3,4392534,Western,clumsiness,C4525,1912,"A Claim Agent's Misadventure",clumsiness
+3,3574211,Western,escape-from-custody,E2165,1953,"Escape from Fort Bravo",escape-from-custody
+3,3555876,Western,jaguar,J26,1963,Jaguar,jaguar
+3,3381977,Western,broken-leg,B6254,1954,"Broken Lance",broken-leg
+3,4444631,Western,broken-leg,B6254,1962,"Broken Lariat",broken-leg
+3,3806586,Western,pretzel,P6324,2007,"The Prodigal Guns",pretzel
+3,4107949,Western,pretzel,P6324,1971,"Pray to Kill and Return Alive",pretzel
+3,3775590,Western,wounded-man,W535,1975,"Wanted Women",wounded-man
+3,4517707,Western,wounded-man,W535,1935,"Wanted Men",wounded-man
+3,3400103,Western,school-shooting,S2423,1957,"Schlucht des Grauens",school-shooting
+3,3400103,Western,school-shooting,S2423,1957,"Die Schlucht des Grauens",school-shooting
+3,3667163,Western,school-shooting,S2423,1958,"Schlucht des Verderbens",school-shooting
+3,3934975,Western,school-shooting,S2423,1950,"Die Schlacht am Strom",school-shooting
+3,4187650,Western,school-shooting,S2423,2012,"Scalawag - Der Pirat Der 7 Meere",school-shooting
+3,4318750,Western,school-shooting,S2423,1952,"Die Schlacht am ApachenpaÃŸ",school-shooting
+3,4318750,Western,school-shooting,S2423,1953,"Die Schlacht am Apachen-Pass",school-shooting
+3,4329263,Western,school-shooting,S2423,1929,"Die Schlucht der Abenteuer",school-shooting
+3,4370174,Western,school-shooting,S2423,1930,"Die Schlacht am blauen Berge",school-shooting
+3,4318750,Western,school-shooting,S2423,1952,"Die Schlacht am ApachenpaÃŸ",school-shooting
+3,3667163,Western,school-shooting,S2423,1957,"Schlucht des Verderbens",school-shooting
+3,3294179,Western,group-sex,G612,1957,"Il guerriero apache",group-sex
+3,3294151,Western,group-sex,G612,1954,"Der groÃŸe Apache",group-sex
+3,4362623,Western,group-sex,G612,1982,"Der graue Fuchs",group-sex
+3,4362623,Western,group-sex,G612,1982,"Der Graue Fuchs",group-sex
+3,3457644,Western,apex-gang,A1252,1972,"Apache Massacre",apex-gang
+3,4037328,Western,apex-gang,A1252,1953,"Apachenschlacht am schwarzen Berge",apex-gang
+3,4228753,Western,apex-gang,A1252,1962,"Apache in agguato",apex-gang
+3,3500859,Western,disaster,D236,1954,Destry,disaster
+3,968174,Western,fair,F6,1955,Fury,fair
+3,968174,Western,fair,F6,1955,Furia,fair
+3,4355944,Western,fair,F6,1950,"Le furie",fair
+3,4457350,Western,fair,F6,1948,Fury,fair
+3,3414807,Western,consummation,C5253,1969,"Come Sundown, Come Hell",consummation
+3,4435261,Western,consummation,C5253,1957,"Cheyenne kennt keine Gnade - Am Ende war der Galgen",consummation
+3,4445703,Western,consummation,C5253,1929,"La canzone dei lupi",consummation
+3,4000501,Western,sensitivity,S5231,1967,"An seinen Stiefeln klebte Blut",sensitivity
+3,3450196,Western,close-up-of-mouth,C4215,1955,"The Calico Pony",close-up-of-mouth
+3,3360385,Western,black-u.s.-president,B4216,1974,"Black Bart",black-u.s.-president
+3,3356408,Western,black-u.s.-president,B4216,1948,"Black Bart, Highwayman",black-u.s.-president
+3,3356408,Western,black-u.s.-president,B4216,1948,"Black Bart",black-u.s.-president
+3,3687164,Western,black-u.s.-president,B4216,1964,"The Black Forest",black-u.s.-president
+3,3325658,Western,gang-of-thieves,G5213,1967,"Guns of Death",gang-of-thieves
+3,3600736,Western,gang-of-thieves,G5213,1935,"Guns of the Law",gang-of-thieves
+3,3667637,Western,gang-of-thieves,G5213,1965,"Guns of Diablo",gang-of-thieves
+3,3667657,Western,gang-of-thieves,G5213,1960,"Guns of the Timberland",gang-of-thieves
+3,4131730,Western,gang-of-thieves,G5213,1995,"Guns of the Revolution",gang-of-thieves
+3,4131730,Western,gang-of-thieves,G5213,1971,"Guns Of The Revolution",gang-of-thieves
+3,141295,Western,internet-video,I5365,NULL,"In der Mittagsglut",internet-video
+3,3235954,Western,internet-video,I5365,2003,"In the Arms of Angels",internet-video
+3,4224405,Western,internet-video,I5365,1939,"In der Maske des Bruders",internet-video
+3,3371154,Western,struggling-with-addiction,S3624,1948,"Die Stadt der GlÃ¼cksjÃ¤ger",struggling-with-addiction
+3,4470418,Western,struggling-with-addiction,S3624,1915,"The Struggle in the Steeple",struggling-with-addiction
+3,4043557,Western,ontario-international-airport-california,O5365,2014,"On the Wrong Track",ontario-international-airport-california
+3,3294157,Western,power-cut,P623,1975,Pursuit,power-cut
+3,4121771,Western,power-cut,P623,1947,Pursued,power-cut
+3,4106290,Western,power-cut,P623,2015,"Power Shootout",power-cut
+3,4315025,Western,power-cut,P623,1929,Pursued,power-cut
+3,3421926,Western,sex-dream,S2365,1927,"Der schÃ¼chterne Wildling",sex-dream
+3,4104079,Western,sex-dream,S2365,1961,"La squadra infernale",sex-dream
+3,4327155,Western,sex-dream,S2365,1910,"The Sister and the Cowpuncher",sex-dream
+3,4385042,Western,sex-dream,S2365,1925,"Der schÃ¼chterne Don Juan",sex-dream
+3,4428559,Western,debt,D13,1999,"The Deputy",debt
+3,3551798,Western,arthritis,A6363,2015,"El Ardor - Der Krieger aus dem Regenwald",arthritis
+3,4484529,Western,tyranny,T65,2004,"True Women",tyranny
+3,3734944,Western,south-africa,S3162,1975,"Shoot First... Ask Questions Later",south-africa
+3,4217405,Western,south-africa,S3162,2012,"Shoot Out - Abrechnung in Gun Hill",south-africa
+3,4248845,Western,south-africa,S3162,1932,"South of Rio Grande",south-africa
+3,4500781,Western,south-africa,S3162,1972,"Shoot First, Laugh Last",south-africa
+3,4500781,Western,south-africa,S3162,1967,"Shoot First... Laugh Last!",south-africa
+3,3325656,Western,gary-indiana,G6535,1957,Granaten-Joe,gary-indiana
+3,3379903,Western,gary-indiana,G6535,1940,"La grande missione",gary-indiana
+3,3641842,Western,gary-indiana,G6535,1993,"Geronimo: The Untold story",gary-indiana
+3,4021271,Western,gary-indiana,G6535,1996,"Grand Nord",gary-indiana
+3,4501565,Western,normandy,N653,1969,"No Room to Die",normandy
+3,4501565,Western,normandy,N653,1970,"No Room to Die",normandy
+3,3902785,Western,login,L25,1984,Louisiane,login
+3,4258128,Western,stockholm-syndrome,S3245,1986,"Stagecoach - HÃ¶llenfahrt nach Lordsburg",stockholm-syndrome
+3,4399491,Western,stockholm-syndrome,S3245,1944,"Stagecoach Line",stockholm-syndrome
+3,3360385,Western,male-prostitute,M4162,1974,"Mel Brooks' Blazing Saddles or Never Give a Saga an Even Break",male-prostitute
+3,3360385,Western,male-prostitute,M4162,2000,"Mel Brooks' Blazing Saddles - Der wilde wilde Westen",male-prostitute
+3,3456353,Western,rednecks,R352,2001,"Der Ritt nach Hause",rednecks
+3,3438431,Western,cult,C43,1950,"Colt .45",cult
+3,3327315,Western,george-washington,G6252,1935,"Grausame KÃ¼ste",george-washington
+3,3394695,Western,george-washington,G6252,1973,"Geier kennen kein Erbarmen",george-washington
+3,3407461,Western,george-washington,G6252,1959,"Der groÃŸe Zug nach Santa Fe",george-washington
+3,3394695,Western,george-washington,G6252,1991,"Geier kennen kein Erbarmen",george-washington
+3,3559712,Western,george-washington,G6252,1966,"Der grausame Schwur des Zorro",george-washington
+3,3407461,Western,george-washington,G6252,1959,"Der GroÃŸe Zug nach Santa Fe",george-washington
+3,3737364,Western,paris-france,P6216,1969,"The Price of Power",paris-france
+3,3737364,Western,paris-france,P6216,1971,"The Price of Power",paris-france
+3,4249943,Western,pregnancy,P6252,1985,"Proxima Centauri 3 - Revolte im All",pregnancy
+3,4249943,Western,pregnancy,P6252,1985,"Proxima Centauri 3 - Revolte im All",pregnancy
+3,4419170,Western,murder-by-suffocation,M6361,1947,"Il mare d'erba",murder-by-suffocation
+3,4455117,Western,trapdoor,T6136,1936,"I tre padrini",trapdoor
+3,3911031,Western,suffragette,S1623,1949,"Superstition Mountain",suffragette
+3,4058130,Western,suffragette,S1623,1923,Superstition,suffragette
+3,4376284,Western,suffragette,S1623,1930,"La sferzata",suffragette
+3,3408320,Western,handsome-teen-boy,H5325,2014,Huntsman,handsome-teen-boy
+3,3545425,Western,handsome-teen-boy,H5325,1963,"Hindi ako natatakot!",handsome-teen-boy
+3,3734935,Western,handsome-teen-boy,H5325,1967,"The Handsome, the Ugly, and the Stupid",handsome-teen-boy
+3,3617181,Western,cricket-the-game,C6232,1958,"La carica dei quattromila",cricket-the-game
+3,4363611,Western,cricket-the-game,C6232,1952,"La carica degli apaches",cricket-the-game
+3,354722,Western,borough-name-in-title,B6253,2006,"Broken Trail - Un viaggio pericoloso",borough-name-in-title
+3,354722,Western,borough-name-in-title,B6253,2006,"Broken Trail",borough-name-in-title
+3,2519496,Western,borough-name-in-title,B6253,1993,"Brisco County Jr.",borough-name-in-title
+3,3357637,Western,borough-name-in-title,B6253,1927,"The Broken Dollar",borough-name-in-title
+3,4391492,Western,borough-name-in-title,B6253,1947,"I briganti",borough-name-in-title
+3,3052034,Western,jackass,J2,1979,Josh,jackass
+3,3831348,Western,jackass,J2,1973,"J. & S.",jackass
+3,3863202,Western,jackass,J2,1971,"Le juge",jackass
+3,3052034,Western,jackass,J2,1979,Josh,jackass
+3,4475951,Western,life,L1,1934,Lobo,life
+3,4346522,Western,electrocution,E4236,1991,"Der elektrische Reiter",electrocution
+3,4346522,Western,electrocution,E4236,1980,"Der elektrische Reiter",electrocution
+3,4346522,Western,electrocution,E4236,1979,Electric,electrocution
+3,4346522,Western,electrocution,E4236,1980,"Der Elektrische Reiter",electrocution
+3,3278131,Western,homeland,H5453,1972,"2 Himmelhunde im Wilden Westen",homeland
+3,3394695,Western,chile,C4,1973,Cahill,chile
+3,4059001,Western,chile,C4,1950,"The Clue",chile
+3,3438431,Western,child,C43,1950,"Colt .45",child
+3,4178811,Western,slide-projector,S4316,2006,"El soldado PÃ©rez",slide-projector
+3,3969333,Western,science-teacher,S2523,1953,"Die SchÃ¶nste von Montana",science-teacher
+3,4097944,Western,science-teacher,S2523,2008,"Uno sconosciuto alla mia porta",science-teacher
+3,4318056,Western,science-teacher,S2523,1916,"La scommessa del bandito",science-teacher
+3,4268518,Western,science-teacher,S2523,1956,"Uno sconosciuto alla mia porta",science-teacher
+3,4412700,Western,biblical-passage,B1424,1970,"Buffalo Soldiers",biblical-passage
+3,3586568,Western,secret-service-agent,S2632,1952,"The Secret Sharer",secret-service-agent
+3,4155259,Western,secret-service-agent,S2632,1984,"Schwur des GeÃ¤chteten",secret-service-agent
+3,4174813,Western,secret-service-agent,S2632,1983,"Sacred Ground",secret-service-agent
+3,4166839,Western,secret-service-agent,S2632,1945,"The Secret Stranger",secret-service-agent
+3,4379234,Western,secret-service-agent,S2632,1957,"La scure di guerra del capo Sioux",secret-service-agent
+3,4262159,Western,banff-alberta,B5141,1968,"Bumblebee, Oh Bumblebee",banff-alberta
+3,3205892,Western,second-city,S2532,1969,"Die schmutzigen Dreizehn",second-city
+3,3218048,Western,second-city,S2532,1994,"8 Seconds - TÃ¶dlicher Ehrgeiz",second-city
+3,3451794,Western,second-city,S2532,1944,"Signed Judgment",second-city
+3,3418260,Western,second-city,S2532,1964,"Schmutzige Dollars",second-city
+3,3737842,Western,second-city,S2532,1963,"Le signe de Zorro",second-city
+3,4223833,Western,second-city,S2532,1994,"Schweigende Zunge - Die Rache der GÃ¶tter",second-city
+3,4389423,Western,second-city,S2532,1940,"Il segno di Zorro",second-city
+3,4389422,Western,second-city,S2532,1922,"Il segno di Zorro",second-city
+3,4223833,Western,second-city,S2532,1994,"Schweigende Zunge - Die Rache der GÃ¶tter",second-city
+3,3218048,Western,second-city,S2532,1994,"8 Seconds - TÃ¶dlicher Ehrgeiz",second-city
+3,3418260,Western,second-city,S2532,1947,"Schmutzige Dollars",second-city
+3,4594333,Western,second-city,S2532,1975,"Segno di Zorro",second-city
+3,3924622,Western,money-trail,M5364,1972,"Ein Mann in der Wildnis",money-trail
+3,4388664,Western,money-trail,M5364,1991,"Der Mann der Liberty Valance erschoss",money-trail
+3,4388664,Western,money-trail,M5364,1962,"Der Mann, der Liberty Valance erschoÃŸ",money-trail
+3,4388664,Western,money-trail,M5364,1962,"Der Mann der Liberty Valance erschoss",money-trail
+3,4388664,Western,money-trail,M5364,1962,"Der Mann der Liberty Valance erschoss",money-trail
+3,3325749,Western,trustee,T623,1949,Tricked,trustee
+3,3451765,Western,bandaged-nose,B5323,1946,"Beneath the Starry Skies",bandaged-nose
+3,4158832,Western,bandaged-nose,B5323,1985,"Bandit aus gutem Haus",bandaged-nose
+3,4110741,Western,bandaged-nose,B5323,1938,"Beneath Western Skies",bandaged-nose
+3,4568276,Western,bandaged-nose,B5323,1958,"A Boy and His Dog",bandaged-nose
+3,4522743,Western,bandaged-nose,B5323,1975,"La banda de Jaider",bandaged-nose
+3,3241574,Western,toaster,T236,2001,"Texas Story",toaster
+3,3844881,Western,pay-raise,P62,1966,"La presa",pay-raise
+3,3418266,Western,comedy-team,C535,1964,"Cheyenne Autumn",comedy-team
+3,3212234,Western,blood-spurting,B4321,1966,"3 Bullets for Ringo",blood-spurting
+3,3482235,Western,blood-spurting,B4321,1994,"Blutige Vergeltung",blood-spurting
+3,3366180,Western,blood-spurting,B4321,2002,"BlutsbrÃ¼der - Zwischen Leben und Tod",blood-spurting
+3,3649272,Western,blood-spurting,B4321,1984,"Blutspur des schwarzen RÃ¤chers",blood-spurting
+3,3613764,Western,blood-spurting,B4321,1922,"Der BlitzbeiÃŸer",blood-spurting
+3,3737364,Western,blood-spurting,B4321,1970,"Blutiges Blei",blood-spurting
+3,3667363,Western,blood-spurting,B4321,1957,BlutsbrÃ¼der,blood-spurting
+3,4096162,Western,blood-spurting,B4321,1970,"Bullets Over Dallas",blood-spurting
+3,4324290,Western,blood-spurting,B4321,1936,"The Bold Cavalier",blood-spurting
+3,4302526,Western,blood-spurting,B4321,1969,"Blutige Spur",blood-spurting
+3,4317775,Western,blood-spurting,B4321,1970,"La ballata di Cable Hogue",blood-spurting
+3,3482235,Western,blood-spurting,B4321,1994,"Blutige Vergeltung",blood-spurting
+3,4302526,Western,blood-spurting,B4321,1969,"Blutige Spur",blood-spurting
+3,4523074,Western,blood-spurting,B4321,2016,"Bloody Spurs",blood-spurting
+3,3571934,Western,speaking-chinese,S1252,1971,"Savage Guns",speaking-chinese
+3,4046443,Western,speaking-chinese,S1252,1971,"Uno spaccone chiamato Hark",speaking-chinese
+3,4426126,Western,speaking-chinese,S1252,1974,"The Spikes Gang",speaking-chinese
+3,4458899,Western,speaking-chinese,S1252,1962,"The Savage Guns",speaking-chinese
+3,3352672,Western,smashing-a-window,S5252,1942,"Smoking Guns",smashing-a-window
+3,3325707,Western,smashing-a-window,S5252,1942,"Singing Guns",smashing-a-window
+3,3557791,Western,smashing-a-window,S5252,1940,"The Singing Charro",smashing-a-window
+3,4236133,Western,smashing-a-window,S5252,1996,"The Smoking Trail",smashing-a-window
+3,4331449,Western,smashing-a-window,S5252,1931,"Smashing Through",smashing-a-window
+3,4244976,Western,smashing-a-window,S5252,1938,"The Singing Buckaroo",smashing-a-window
+3,4226460,Western,smashing-a-window,S5252,1950,"Singing Guns",smashing-a-window
+3,4399518,Western,smashing-a-window,S5252,1937,"Smoking Six Guns",smashing-a-window
+3,4272881,Western,silenced-shotgun,S4523,1971,"Su le mani cadavere, sei in arresto",silenced-shotgun
+3,3667119,Western,scissoring,S2652,1953,"Screaming Eagles",scissoring
+3,3298190,Western,arrow-in-eye,A65,1953,Arena,arrow-in-eye
+3,3298190,Western,arrow-in-eye,A65,1953,Arena,arrow-in-eye
+3,3201215,Western,disguise,D2,1972,Doc,disguise
+3,3695266,Western,disguise,D2,2004,Dash,disguise
+3,4031587,Western,disguise,D2,2009,"The Dog",disguise
+3,4166831,Western,disguise,D2,1945,Decoy,disguise
+3,3320509,Western,stone-age-tools,S3523,1955,"Stadt in Angst",stone-age-tools
+3,3320509,Western,stone-age-tools,S3523,1991,"Stadt in Angst",stone-age-tools
+3,4217697,Western,stone-age-tools,S3523,2015,"Shooting Stars Restored Version",stone-age-tools
+3,4267815,Western,stone-age-tools,S3523,1928,"Shootin' Straight",stone-age-tools
+3,4261860,Western,stone-age-tools,S3523,1948,"Station West",stone-age-tools
+3,4377340,Western,stone-age-tools,S3523,1956,"Satan im Sattel",stone-age-tools
+3,3320509,Western,stone-age-tools,S3523,1955,"Stadt in Angst",stone-age-tools
+3,3213831,Western,thai-woman,T5,1957,"3:10 to Yuma",thai-woman
+3,3471133,Western,handshake,H532,1928,"HÃ¤nde hoch!",handshake
+3,3534906,Western,handshake,H532,1949,"HÃ¤nde hoch!",handshake
+3,3681507,Western,handshake,H532,1926,"The Haunted House",handshake
+3,3334719,Western,blue-pantyhose,B4153,1946,"La bella e il bandito",blue-pantyhose
+3,4402541,Western,blue-pantyhose,B4153,1957,"Bill il bandito",blue-pantyhose
+3,4549430,Western,blue-pantyhose,B4153,1945,"La bella avventura",blue-pantyhose
+3,4033163,Western,gelignite,G4253,2002,"Galaxy Hunter",gelignite
+3,3364065,Western,woodstock,W3232,1972,"White Justice",woodstock
+3,3784889,Western,woodstock,W3232,1972,"Watch Out Gringo! Sabata Will Return",woodstock
+3,3811127,Western,woodstock,W3232,1925,"With Kit Carson Over the Great Divide",woodstock
+3,4315897,Western,hat,H3,1916,Hate,hat
+3,3451765,Western,bandaged-head-to-toe,B5323,1946,"Beneath the Starry Skies",bandaged-head-to-toe
+3,4158832,Western,bandaged-head-to-toe,B5323,1985,"Bandit aus gutem Haus",bandaged-head-to-toe
+3,4110741,Western,bandaged-head-to-toe,B5323,1938,"Beneath Western Skies",bandaged-head-to-toe
+3,4568276,Western,bandaged-head-to-toe,B5323,1958,"A Boy and His Dog",bandaged-head-to-toe
+3,4522743,Western,bandaged-head-to-toe,B5323,1975,"La banda de Jaider",bandaged-head-to-toe
+3,3500040,Western,survival,S614,1978,Survival,survival
+3,3500040,Western,survival,S614,1978,Survival,survival
+3,4245950,Western,birth,B63,1949,"The Brat",birth
+3,4152743,Western,somnophilia,S514,1995,"Sun Valley",somnophilia
+3,3649269,Western,desire,D26,1971,"Duck, You Sucker",desire
+3,3690301,Western,soviet-citizen,S1323,1939,"Spats to Spurs",soviet-citizen
+3,4307028,Western,soviet-citizen,S1323,1940,"Swift Justice",soviet-citizen
+3,3237501,Western,reading-aloud,R3524,1912,"A Red Man's Loyalty",reading-aloud
+3,3846572,Western,reading-aloud,R3524,1965,"Der Ritt nach Alamo",reading-aloud
+3,4188174,Western,reading-aloud,R3524,1953,"Der rote Engel",reading-aloud
+3,4188174,Western,reading-aloud,R3524,1952,"Der Rote Engel",reading-aloud
+3,4318842,Western,battlefield,B3414,1913,"The Battle of Elderbush Gulch",battlefield
+3,4175224,Western,setlife,S341,2008,"Saddle Up",setlife
+3,4435892,Western,tribal-life,T6141,1926,"Trouble Baxter",tribal-life
+3,3428101,Western,crown,C65,1976,"Cry, Onion!",crown
+3,4035465,Western,crown,C65,1938,"Cuori umani",crown
+3,3970178,Western,caustic-critic,C2326,1953,"Cactus Round-Up",caustic-critic
+3,4256141,Western,caustic-critic,C2326,1991,"Cock City Corral",caustic-critic
+3,2683738,Western,harassment,H6253,NULL,"Hurricane at Pilgrim Hill",harassment
+3,3590915,Western,harassment,H6253,1951,"Herz in der Hose",harassment
+3,3893563,Western,harassment,H6253,1968,"The Horseman and the Samurai",harassment
+3,4327892,Western,harassment,H6253,1956,"Horizont in Flammen",harassment
+3,4365344,Western,harassment,H6253,1914,"The Heiress and the Cook",harassment
+3,4469451,Western,harassment,H6253,1958,"A Horse Named Comanche",harassment
+3,4327892,Western,harassment,H6253,1956,"Horizont in Flammen",harassment
+3,4131410,Western,sex-in-a-swimming-pool,S2525,1957,"Six Guns and a Gavel",sex-in-a-swimming-pool
+3,4221633,Western,sex-in-a-swimming-pool,S2525,1974,"Sie kÃ¶nnen's nicht lassen",sex-in-a-swimming-pool
+3,4230427,Western,sex-in-a-swimming-pool,S2525,1971,"Skin Game",sex-in-a-swimming-pool
+3,4221633,Western,sex-in-a-swimming-pool,S2525,1974,"Sie kÃ¶nnen's nicht lassen",sex-in-a-swimming-pool
+3,4187650,Western,sociology,S242,1973,Scalawag,sociology
+3,3502742,Western,double-agent,D1425,1953,"Devil's Canyon",double-agent
+3,3607899,Western,double-agent,D1425,1952,"Devil's Canyon",double-agent
+3,4501232,Western,double-agent,D1425,1967,"Devil Was an Angel",double-agent
+3,4045394,Western,lockdown,L235,1960,"The Last Man",lockdown
+3,4385280,Western,lockdown,L235,1952,"The Lusty Men",lockdown
+3,3460924,Western,tranquilizer-gun,T6524,2014,"ThÃ«e Ramschladen",tranquilizer-gun
+3,3738248,Western,tranquilizer-gun,T6524,1960,"Terror in Oklahoma",tranquilizer-gun
+3,4362623,Western,fox,F2,1986,"Der Fuchs",fox
+3,4414193,Western,fox,F2,1972,"La feccia",fox
+3,3748879,Western,aviator-sunglasses,A1362,1965,"Auf der Suche nach Mukapo",aviator-sunglasses
+3,4016453,Western,aviator-sunglasses,A1362,1959,"Auf der Kugel stand kein Name",aviator-sunglasses
+3,4141445,Western,aviator-sunglasses,A1362,1956,"Auf der Spur des Todes",aviator-sunglasses
+3,4248420,Western,aviator-sunglasses,A1362,1981,"Auf der Suche nach dem verlorenen Tal",aviator-sunglasses
+3,4016453,Western,aviator-sunglasses,A1362,1959,"Auf der Kugel stand kein Name",aviator-sunglasses
+3,4141445,Western,aviator-sunglasses,A1362,1956,"Auf der Spur des Todes",aviator-sunglasses
+3,3895496,Western,monogamy,M525,1952,"Mann gegen Mann",monogamy
+3,3650251,Western,trampoline,T6514,1966,"Die Trampler",trampoline
+3,3650251,Western,trampoline,T6514,1966,"The Tramplers",trampoline
+3,4480238,Western,trampoline,T6514,1963,"I tre implacabili",trampoline
+3,3447517,Western,cover-song,C1625,1950,"Copper Canyon",cover-song
+3,4222135,Western,cover-song,C1625,1955,"Cowboyrache in Oklahoma",cover-song
+3,3833832,Western,thermometer,T6536,1969,"Trinity Rides Again",thermometer
+3,3376508,Western,anagram,A5265,1968,"Ancora un passo... e pregherai il tuo Dio!",anagram
+3,3802817,Western,body-landing-on-a-car,B3453,2017,Badlanders,body-landing-on-a-car
+3,3744977,Western,body-landing-on-a-car,B3453,1909,"The Bad Lands",body-landing-on-a-car
+3,3845982,Western,body-landing-on-a-car,B3453,1970,"Badlands Drifter",body-landing-on-a-car
+3,4046152,Western,body-landing-on-a-car,B3453,1999,"El batallÃ³n de San Patricio",body-landing-on-a-car
+3,4033163,Western,body-landing-on-a-car,B3453,1997,Badlands,body-landing-on-a-car
+3,4202621,Western,body-landing-on-a-car,B3453,1962,Badlands,body-landing-on-a-car
+3,4317531,Western,body-landing-on-a-car,B3453,1958,"The Badlanders",body-landing-on-a-car
+3,4584779,Western,body-landing-on-a-car,B3453,2015,"Bad Land: Road to Fury",body-landing-on-a-car
+3,3728022,Western,university-of-virginia,U5162,1971,"Die UnversÃ¶hnlichen",university-of-virginia
+3,4438004,Western,university-of-virginia,U5162,1960,"The Unforgiven",university-of-virginia
+3,4506705,Western,university-of-virginia,U5162,1992,Unforgiven,university-of-virginia
+3,4497400,Western,university-of-virginia,U5162,2011,"Umbrage: The First Vampire",university-of-virginia
+3,3335033,Western,costa-rican-woman,C2362,2014,"Los Castores",costa-rican-woman
+3,3335033,Western,costa-rican-woman,C2362,2015,"Los Castores",costa-rican-woman
+3,3461539,Western,costa-rican-woman,C2362,1912,"Custer's Last Raid",costa-rican-woman
+3,3496197,Western,costa-rican-woman,C2362,1972,"Il cacciatore solitario",costa-rican-woman
+3,4042900,Western,costa-rican-woman,C2362,1909,"Custer's Last Stand",costa-rican-woman
+3,4209793,Western,son,S5,1953,Shane,son
+3,2822269,Western,walled-city,W4323,1965,"The Wild West",walled-city
+3,2527524,Western,walled-city,W4323,2016,"Der Wilde Westen - Die wahre Geschichte",walled-city
+3,2822259,Western,walled-city,W4323,2006,"The Wild West",walled-city
+3,3255820,Western,walled-city,W4323,1967,"Wildwest in Afrika",walled-city
+3,3230341,Western,walled-city,W4323,1951,"Der Wildwestkavalier",walled-city
+3,3393896,Western,walled-city,W4323,1999,"Wild West",walled-city
+3,3524862,Western,walled-city,W4323,1950,"Wildwest rechnet ab",walled-city
+3,3678011,Western,walled-city,W4323,1926,Wildwestromantik,walled-city
+3,4100530,Western,walled-city,W4323,1940,"Wild West Days",walled-city
+3,4361860,Western,walled-city,W4323,1976,Wildcat,walled-city
+3,4294176,Western,walled-city,W4323,1948,Wildwest,walled-city
+3,4475760,Western,walled-city,W4323,1950,Wildwest-Banditen,walled-city
+3,4365404,Western,walled-city,W4323,1918,"The Wild Cat",walled-city
+3,4410990,Western,walled-city,W4323,1926,Wildwestbanditen,walled-city
+3,4445345,Western,walled-city,W4323,1950,"Die Wildwest Witwe",walled-city
+3,4445345,Western,walled-city,W4323,1950,"Die Wildwest-Witwe",walled-city
+3,4562735,Western,walled-city,W4323,1936,"Wild Cat: Prize Fighter",walled-city
+3,4561955,Western,walled-city,W4323,1917,"Der wilde Westen",walled-city
+3,4549268,Western,walled-city,W4323,1967,"Der wildeste Westen",walled-city
+3,4562736,Western,walled-city,W4323,1937,Wildcat,walled-city
+3,3226273,Western,hallucinogenic,H4252,1919,"Hell's Neck",hallucinogenic
+3,3872796,Western,hallucinogenic,H4252,1907,"Hooligans of the Far West",hallucinogenic
+3,4220769,Western,hallucinogenic,H4252,1972,"Halleluja... Amigo",hallucinogenic
+3,4220769,Western,hallucinogenic,H4252,1972,"Halleluja ... Amigo",hallucinogenic
+3,3320927,Western,two-on-a-motorcycle,T5362,1947,"Thunder Gap Outlaws",two-on-a-motorcycle
+3,3438431,Western,two-on-a-motorcycle,T5362,1950,Thundercloud,two-on-a-motorcycle
+3,4502630,Western,overdue-rent,O1636,1935,"Operators 12, 14 and 15",overdue-rent
+3,4502630,Western,overdue-rent,O1636,1935,"Operators 13, 14 and 15",overdue-rent
+3,4494575,Western,clothes-line,C4324,1966,"The Cold Killer",clothes-line
+3,3280476,Western,american-woman,A5625,1991,"An American Tail II",american-woman
+3,3277399,Western,american-woman,A5625,2001,"American Outlaws",american-woman
+3,3208728,Western,american-woman,A5625,1986,"American Bull",american-woman
+3,3272123,Western,american-woman,A5625,1945,"American Cowboy",american-woman
+3,3266716,Western,american-woman,A5625,2017,"American Cowboys Vs. Aliens",american-woman
+3,4313761,Western,american-woman,A5625,1955,L'americano,american-woman
+3,4313761,Western,american-woman,A5625,1955,"The Americano",american-woman
+3,4313761,Western,american-woman,A5625,1955,Americano,american-woman
+3,4365315,Western,american-woman,A5625,2013,"American Cowboys",american-woman
+3,4454582,Western,american-woman,A5625,1991,"American Playhouse: Thousand Pieces of Gold",american-woman
+3,4405795,Western,american-woman,A5625,1936,"Ein amerikanisches Duell",american-woman
+3,4313761,Western,american-woman,A5625,1955,Americano,american-woman
+3,3274381,Western,thought-reform,T2361,1957,"Der Tag der Verdammten",thought-reform
+3,3352670,Western,thought-reform,T2361,1941,"Texas Trouble",thought-reform
+3,3736191,Western,thought-reform,T2361,1971,"Tag der Vergeltung",thought-reform
+3,4153813,Western,thought-reform,T2361,1966,"Der Tag der Abrechnung",thought-reform
+3,4509530,Western,thought-reform,T2361,1957,"Der Tag der Vergeltung",thought-reform
+3,4153813,Western,thought-reform,T2361,1966,"Tag der Abrechnung",thought-reform
+3,4509530,Western,thought-reform,T2361,1952,"Der Tag der Vergeltung",thought-reform
+3,4596393,Western,presidential-pardon,P6235,1943,"El paraÃ­so de MÃ©xico",presidential-pardon
+3,3356409,Western,support,S163,1975,Superdude,support
+3,4253895,Western,support,S163,2002,Spirit,support
+3,3692496,Western,christmas-episode,C6235,1963,"Cursed Inheritance",christmas-episode
+3,3958228,Western,christmas-episode,C6235,2005,"Christmas Miracle at Sage Creek",christmas-episode
+3,4195825,Western,christmas-episode,C6235,1999,"Christmas in Calico",christmas-episode
+3,3394695,Western,wedding-day,W3523,1973,"Wednesday Morning",wedding-day
+3,4345489,Western,duel,D4,2016,"Das Duell",duel
+3,4345489,Western,duel,D4,2016,"Il duello",duel
+3,3364624,Western,information-leak,I5165,1968,"Inferno am FluÃŸ",information-leak
+3,3502742,Western,information-leak,I5165,1953,"L'inferno di Yuma",information-leak
+3,3591828,Western,information-leak,I5165,1992,"In einem fernen Land",information-leak
+3,3688772,Western,information-leak,I5165,1949,"Inferno di fuoco",information-leak
+3,4444576,Western,information-leak,I5165,1952,"Inferno bianco",information-leak
+3,4544036,Western,information-leak,I5165,1937,"Im fernen Westen",information-leak
+3,4544036,Western,information-leak,I5165,1976,"Im fernen Westen",information-leak
+3,3591828,Western,information-leak,I5165,1992,"In einem fernen Land",information-leak
+3,635659,Western,duet,D3,2004,Deadwood,duet
+3,3241574,Western,duet,D3,1999,"La dote dei Whit",duet
+3,3481471,Western,duet,D3,2016,"Dead 7",duet
+3,4217366,Western,duet,D3,2006,"Dead, Dead",duet
+3,4303066,Western,duet,D3,1971,"Dead Heat",duet
+3,3738495,Western,monkey-head,M523,1971,"La mano nascosta di Dio",monkey-head
+3,4218067,Western,monkey-head,M523,1950,"Una manciata d'odio",monkey-head
+3,4568708,Western,monkey-head,M523,1957,Minnesota,monkey-head
+3,4568708,Western,monkey-head,M523,1952,Minnesota,monkey-head
+3,3775461,Western,tournament,T653,1972,Trinity,tournament
+3,4277609,Western,tournament,T653,1996,Tramonto,tournament
+3,4434206,Western,tournament,T653,1917,"Il tornado",tournament
+3,3307270,Western,fingering,F5265,1956,"Den Finger am Abzug",fingering
+3,3603663,Western,fingering,F5265,1965,"Finger on the Trigger",fingering
+3,4350573,Western,decapitation,D2135,1955,"I due capitani",decapitation
+3,3667700,Western,television-history,T4125,1957,"A Tale of Consequence",television-history
+3,3537959,Western,throwing-object-through-window,T6521,1967,"Two R-R-Ringos from Texas",throwing-object-through-window
+3,3693924,Western,throwing-object-through-window,T6521,1948,"Transport de l'or",throwing-object-through-window
+3,3847879,Western,throwing-object-through-window,T6521,1971,"Three Amens for Satan",throwing-object-through-window
+3,4455399,Western,throwing-object-through-window,T6521,1918,"Tre uomini a cavallo",throwing-object-through-window
+3,3272471,Western,alabama-crimson-tide,A4152,1903,"Alphonse and Gaston Take a Dancing Lesson",alabama-crimson-tide
+3,3204011,Western,republic,R142,1969,"100 Rifles",republic
+3,3465793,Western,protester,P6323,1968,"I Protect Myself Against My Enemies",protester
+3,3507293,Western,protester,P6323,1965,"Les pirates du Mississippi",protester
+3,3667165,Western,protester,P6323,1936,"Protection Racket",protester
+3,4107948,Western,protester,P6323,1968,"Pray to God and Dig Your Grave",protester
+3,4268590,Western,protester,P6323,1955,"Il paradiso dei fuorilegge",protester
+3,3464385,Western,detroit-tigers,D3632,1969,"Death Rides a Horse",detroit-tigers
+3,3442592,Western,detroit-tigers,D3632,1970,"Death Rides Along",detroit-tigers
+3,3464385,Western,detroit-tigers,D3632,1966,"Death Rides a Horse",detroit-tigers
+3,4562247,Western,detroit-tigers,D3632,1958,"Death Rides This Trail",detroit-tigers
+3,4160535,Western,transgender,T6525,1950,"Transcontinent Express",transgender
+3,4266182,Western,transgender,T6525,1987,"Die Treue eines Hundes",transgender
+3,4371761,Western,transgender,T6525,1924,"The Trans-continental Railroad",transgender
+3,3254729,Western,double-cross,D1426,1934,"Double Cross",double-cross
+3,3405271,Western,double-cross,D1426,1915,"Double Crossed",double-cross
+3,3617193,Western,double-cross,D1426,2004,"Devil's Raiders",double-cross
+3,4201096,Western,murder-mystery,M6365,1936,"Murder in the Dark",murder-mystery
+3,4168608,Western,mad-scientist,M3253,1996,"Das MÃ¤dchen und der Cowboy",mad-scientist
+3,4084233,Western,mad-scientist,M3253,1977,"The Medicine Hat Stallion",mad-scientist
+3,4391792,Western,troop,T61,1937,Treve,troop
+3,3667382,Western,french-nobleman,F6525,1950,"Frank James Rides Again",french-nobleman
+3,3876406,Western,french-nobleman,F6525,1973,"Frenchie King",french-nobleman
+3,4217405,Western,shootout,S3,1971,Shootout,shootout
+3,4217405,Western,shootout,S3,1971,"Shoot Out",shootout
+3,4465544,Western,living-in-huts,L1525,1950,"Law of Vengeance",living-in-huts
+3,3213831,Western,time,T5,1957,"3:10 to Yuma",time
+3,3215322,Western,crotch-shot,C6323,1968,"5 Card Stud",crotch-shot
+3,3728144,Western,crotch-shot,C6323,1969,"Cowards Don't Pray",crotch-shot
+3,3736694,Western,shot-in-the-stomach,S3532,2016,"Shootout in the West",shot-in-the-stomach
+3,3856708,Western,shot-in-the-stomach,S3532,1959,"Showdown at Gun Hill",shot-in-the-stomach
+3,3977169,Western,shot-in-the-stomach,S3532,1977,"The 1st Notch",shot-in-the-stomach
+3,4217483,Western,shot-in-the-stomach,S3532,1957,"Shoot-Out at Medicine Bend",shot-in-the-stomach
+3,2514958,Western,lying-on-bed,L5251,NULL,"Lynch Mob",lying-on-bed
+3,4332747,Western,mother-daughter-romantic-rivalry,M3632,2000,"Le maÃ®tre de Kingdom Come",mother-daughter-romantic-rivalry
+3,4345497,Western,skiing,S252,1953,"SchÃ¼sse in New Mexico",skiing
+3,4345497,Western,skiing,S252,1953,"SchÃ¼sse in Neu-Mexiko",skiing
+3,3528034,Western,two-brothers,T1636,1968,"Two Brothers, One Death",two-brothers
+3,3775461,Western,two-brothers,T1636,1972,"Two Brothers in Trinity",two-brothers
+3,3898949,Western,two-brothers,T1636,1971,"The Two Brothers",two-brothers
+3,4200457,Western,detective-puzzle,D3231,1972,"Death Is Sweet from the Soldier of God",detective-puzzle
+3,4341617,Western,detective-puzzle,D3231,1912,"The Detective Sweethearts",detective-puzzle
+3,4401449,Western,outdoor-sex,O362,1964,"The Outrage",outdoor-sex
+3,3213831,Western,thai-man,T5,1957,"3:10 to Yuma",thai-man
+3,3352651,Western,ghostbusters,G2312,1991,"Gejagt bis in den Tod",ghostbusters
+3,3352651,Western,ghostbusters,G2312,1989,"Gejagt bis in den Tod",ghostbusters
+3,3352651,Western,ghostbusters,G2312,1989,"Gejagt bis in den Tod",ghostbusters
+3,3457631,Western,sojourner-truth,S2656,1971,"Schrei, wenn wir verrecken!",sojourner-truth
+3,3393909,Western,minute,M53,2002,Manhunt,minute
+3,3393909,Western,minute,M53,2003,Manhunt,minute
+3,3625577,Western,minute,M53,1958,"Man Hunt",minute
+3,3625577,Western,minute,M53,1958,Manhunt,minute
+3,3831348,Western,judaism,J325,1972,"Jed & Sonny",judaism
+3,4522743,Western,young-adult,Y5234,1973,"Yankee Dudler",young-adult
+3,4319266,Western,flash-bang,F4215,1957,"Der Fluch vom Monte Bravo",flash-bang
+3,4051157,Western,subway,S1,1934,"Spy 13",subway
+3,4181140,Western,subway,S1,1949,Sabbia,subway
+3,3394803,Western,changing-of-the-guard,C5252,1973,"Caingangue, a Pontaria do Diabo",changing-of-the-guard
+3,3421514,Western,changing-of-the-guard,C5252,2008,"Chinaman's Chance: America's Yellow Slaves",changing-of-the-guard
+3,3421514,Western,changing-of-the-guard,C5252,2008,"Chinaman's Chance",changing-of-the-guard
+3,3412899,Western,changing-of-the-guard,C5252,1911,"Changing the Cook",changing-of-the-guard
+3,4128415,Western,changing-of-the-guard,C5252,1968,"El Chuncho Quien Sabe? (subtitle A Bullet for the General)",changing-of-the-guard
+3,3213831,Western,team,T5,1957,"3:10 to Yuma",team
+3,141335,Western,bulldozer,B4326,NULL,"La ballata di Gregorio Cortez",bulldozer
+3,3209202,Western,bulldozer,B4326,1967,"Blutiger Staub",bulldozer
+3,3394788,Western,bulldozer,B4326,1971,"The Blood Seekers",bulldozer
+3,3364448,Western,bulldozer,B4326,1954,"Blutiger SÃ¼den",bulldozer
+3,3411191,Western,bulldozer,B4326,1928,"Der Blitzreiter",bulldozer
+3,3363296,Western,bulldozer,B4326,1991,"Blutiger FluÃŸ",bulldozer
+3,3744286,Western,bulldozer,B4326,1996,"Blutiger Befehl",bulldozer
+3,4080776,Western,bulldozer,B4326,1964,"Blutige Rache in Tucson",bulldozer
+3,4220769,Western,bulldozer,B4326,1972,"Bulldozer Is Back Amigo",bulldozer
+3,4317805,Western,bulldozer,B4326,1982,"La ballata di Gregorio Cortez",bulldozer
+3,4401451,Western,bulldozer,B4326,1964,"Blutiger Staub",bulldozer
