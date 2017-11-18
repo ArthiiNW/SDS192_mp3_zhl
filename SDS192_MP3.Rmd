@@ -5,4 +5,36 @@ date: "11/15/2017"
 output: html_document
 ---
 
-MP3
+```{r, message = FALSE}
+library(dplyr)
+library(mosaic)
+library(tidyverse)
+library(readr)
+Western_1117 <- read_csv("~/SDS192_MP3/Western_1117.csv")
+```
+
+```{r}
+Western <- Western_1117 %>% 
+  filter(production_year == c(1950,2000))%>%
+  group_by(keyword, production_year) %>%
+  summarise(number = n())
+Western
+```
+
+```{r}
+Western_decade <- Western_1117 %>%
+  mutate(decade = cut(as.numeric(production_year), seq(from = 1949, to = 2001, by = 10)))%>%
+  filter(decade != 'NA')%>%
+  group_by(keyword, decade) %>%
+  summarise(number = n())%>%
+  filter(number >= 3)
+Western_decade
+```
+
+aes(color = production_year)
+```{r}
+plot1 <- ggplot(aes(x=keyword, y=number), data=Western_decade) +
+  geom_point(aes(color = decade))
+plot1
+```
+
