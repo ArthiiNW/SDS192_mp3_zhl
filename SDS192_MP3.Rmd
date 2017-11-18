@@ -5,6 +5,7 @@ date: "11/15/2017"
 output: html_document
 ---
 
+<<<<<<< HEAD
 ```{R}
 library(readr)
 Western_1117 <- read_csv("~/SDS192_mp3_zhl/Western_1117.csv")
@@ -14,6 +15,9 @@ Western_1117 <- read_csv("~/SDS192_mp3_zhl/Western_1117.csv")
 library(dplyr)
 library(tidyverse)
 library(ggplot2)
+library(mosaic)
+library(readr)
+Western_1117 <- read_csv("~/SDS192_MP3/Western_1117.csv")
 ```
 
 #Between 1900 and 2015, when and how has Western film production peaked and ebbed? 
@@ -33,5 +37,31 @@ peakWestern %>%
   scale_x_discrete(breaks = c(1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010)) +
   labs(x = "Production Year", y = "Number of Western Movies", title = "Number of Western Movies Between 1900 and 2015") + geom_bar(data = subset(peakWestern, number == max (number)), aes(x = production_year, y = number), fill = "red", stat = "identity") +
   geom_text(data = subset(peakWestern, number == max (number)), aes(x = production_year, y = number, label = production_year), hjust = -0.2)
+```
+
+```{r}
+Western <- Western_1117 %>% 
+  filter(production_year == c(1950,2000))%>%
+  group_by(keyword, production_year) %>%
+  summarise(number = n())
+Western
+```
+
+```{r}
+Western_decade <- Western_1117 %>%
+  mutate(decade = cut(as.numeric(production_year), seq(from = 1949, to = 2001, by = 10)))%>%
+  filter(decade != 'NA')%>%
+  group_by(keyword, decade) %>%
+  summarise(number = n())%>%
+  filter(number >= 3)
+Western_decade
+```
+
+aes(color = production_year)
+```{r}
+plot1 <- ggplot(aes(x=keyword, y=number), data=Western_decade) +
+  geom_point(aes(color = decade))
+plot1
+>>>>>>> 377ae19e55ac36abdbf2ad3db72143b5e3a64bc4
 ```
 
