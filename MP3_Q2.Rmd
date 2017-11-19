@@ -1,0 +1,92 @@
+---
+title: "miniproject3"
+author: "Nikki Liu""Yingqi Zheng""Jingjing Hu"
+date: "11/15/2017"
+output: html_document
+---
+
+```{r, message = FALSE}
+library(dplyr)
+library(mosaic)
+library(tidyverse)
+library(readr)
+library(ggplot2)
+library(scales)
+Western_1117 <- read_csv("~/SDS192_MP3/Western_1117.csv")
+```
+
+```{r}
+Western <- Western_1117 %>% 
+  filter(production_year == c(1950,2000))%>%
+  group_by(keyword, production_year) %>%
+  summarise(number = n())
+Western
+```
+
+```{r}
+options("scipen"=999, "digits"=4)
+Western_decade <- Western_1117 %>%
+  mutate(decade = cut(as.numeric(production_year), seq(from = 1950, to = 2000, by = 10), dig.lab = 5,  include.lowest = TRUE, include.highest = FALSE)) %>%
+  filter(decade != 'NA')%>%
+  group_by(keyword, decade) %>%
+  summarise(number = n())%>%
+  filter(number >= 3)
+Western_decade
+```
+
+  scale_fill_gradient(low = "blue", high = "red", name = 'Decades', labels = comma)+
+aes(color = production_year)
+
+```{r}
+plot1 <- ggplot(aes(x=keyword, y=number), data=Western_decade) +
+  geom_point(aes(shape = decade, color = decade))+
+  scale_y_continuous(breaks = c(2,3,4,5,6,7,8,9,10,11,12,13,14,15))+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("Western Film Keywords Frequency Change Over Decades")+
+  theme(plot.title = element_text(hjust = 0.5))
+plot1
+```
+
+
+
+
+```{r}
+Western_defrange <- Western_1117 %>%
+  mutate(decade = cut(as.numeric(production_year), seq(from = 1950, to = 2000, by = 10), dig.lab = 5, include.lowest = TRUE, include.highest = FALSE)) %>%
+  filter(decade != 'NA') %>%
+  group_by(decade) %>%
+  summarise(movierange = length(unique(keyword)))
+Western_defrange
+```
+
+
+We think that the definition of Western films can be reflected by frequent keywords of movie contents at different periods of time. Keywords are selected by IMDB to indicate the prominent feature of each individual film, and they imply people's understanding of "what a Western film is". Therefore, we think the change of movies' keywords reveals the alternation of people's perception of Western films.
+
+In order to track the dynamic movement of keywords' appearance in IMDB database, we sum up the time each keyword appears in each decade between 1950 and 2000. Due to the enormous quantity and great diversity of keywords, we decide to look at keywords with relatively high frequency, and thus more importance to the defintion of Western films. We only select those keywords that appear more than 2 times in each decade, and we plot those keywords on the x-axis and number of appearance on the y-axis, and we use color and shape to differentiate each decade. 
+
+Our observation of trends in Western films is consistent with C J Perry's viewpoints in the article "The Evolution of the Western Genre". 
+
+As we can see from the graph, many keywords appear 3 or 4 times in 1950s, and the keyword with the highest frequency is 'gay-minister' (11 times), followed by school-shooting (8 times) and face-sitting (6 times), which means that there was no much variation in the basic plots. The total number of unique keywords (no matter how many times each keyword appears) in 1950s is 127, and it is the highest in the fifty years we are looking at. These observations correspond to Perry's depiction of western films in 1950s. At that time, western movies often had similar plots on an iconic white man, such as John Wayne in the "The Searchers", involving in violent events. 
+
+According to the graph, from 1961 to 1970 (green triangles), there are more keywords that appear more than twice. Among them, 'Southern-accent' (14 times), 'blood-brother' and 'bullet proof glass' (7 times), and 'blood spurting' (6 times). Note that the keyword 'Southern-accent' has the highest frequency from 1950 to 2000. There are more movies associated with the South compared to movies from the previous period, and the violent scenes seem more frequent. The high frequency of 'blood brother' is associate the increasing family drama scenes in the Western films such as "the wild wild west". These changes are also mentioned in Perry's article. He emphasized that the provalence of TV at that period resulted in broader audience base that demands more diverse storytelling styles of western films, among which family drama was one of the most popular ones. This was proved by the frequent appearance of the keyword "bloody brother".  
+
+From 1971 to 1980 (blue squares), as we can see in the graph, there are less keywords that appear more than twice compared to that of the two previous periods and the number of western films produced started decreasing more drastically. The impact of Southern culture in Western movies is still prevalent because the keyword 'Southern accent' still has the highest frequency (7 times). There are also a few keywords that appear 4 times, including 'blood brothers', 'bullet proof glass', 'caiman', 'china' and 'jackass'. The 1970s seem to be strongly influenced by the trends of 1960s, as the top keywords in 1960s are still prevalent in 1970s. The appearance of more varying themes was consistant to what Perry pointed out in the article that traditional way of film making was being assaulted and young filmmakers, such as Sam Pekinpah and Sergio Leone, were pushing the envelope with different types of storytellings. Since then the whole studio system had been dying rapidly.
+
+From 1981 to 1990, there is no keyword that appears more than twice! We think that it might because the Western films of this period is very diverse (no traits of concentration around some major topics) and the decline in number of Western films. In fact, there are only 27 keywords in this period, which is the lowest from 1950 to 2000.
+
+From 1991 to 2000, there is only one keyword that appears more than twice, which is the 'second city' (4 times). There are in total 45 keywords in this period, signifing an increase in the production of Western films in this period. 
+
+Our observation of trends in Western films is consistent with C J Perry's findings. 
+50s, iconic personage in violent events.
+60s - after, boom in western, more variation, TV, weekly basis, boarder audience base, family drama
+traditional way of film making is assaulted
+smaller budget, foreign locales
+70s, more satirizing instead of battling
+after 70s, themes: aging, skewed morality, racism 
+80s: vanished
+famous people Eastwood stop making western films
+until 90s
+1992 last western, famous movie by eastwood
+more entertaining
+
+
