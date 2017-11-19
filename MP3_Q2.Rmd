@@ -12,6 +12,7 @@ library(tidyverse)
 library(readr)
 library(ggplot2)
 library(scales)
+#depends on your route
 Western_1117 <- read_csv("~/SDS192_mp3/Western_1117.csv")
 ```
 
