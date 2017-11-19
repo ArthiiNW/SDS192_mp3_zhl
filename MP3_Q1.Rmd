@@ -23,3 +23,20 @@ peakWestern %>%
   labs(x = "Production Year", y = "Number of Western Movies", title = "Number of Western Movies Between 1900 and 2015") + geom_bar(data = subset(peakWestern, number == max (number)), aes(x = production_year, y = number), fill = "red", stat = "identity") +
   geom_text(data = subset(peakWestern, number == max (number)), aes(x = production_year, y = number, label = production_year), hjust = -0.2)
 ```
+
+
+Western movies set their story in later half of 19th centrury in the American Old West and always centered a cowboy or gunfighter hero on horseback saving the homestead from savages or finding the treasure in the mountains.(Agresta, 2013) They have long been cherished by American audiences throughout time, seen as representitaves of American culture and American Dreams. However, Western as a genre is experiencing a decline over recent years and was substituted by other genre, for example, superheroes, as the most popular movies in the US. In this project, we explore the quantitative trend of the production of Western movies from 1900 to 2015, and analyse the trend by examining simultaneous history events.
+
+As the graph shows, the production of Western movies increased from 1900 to 1950s with one little blip, and had two distinguishing high peak in 1950s and 1970s. The number of Western movies then quickly fall in the beginning of 1980s and kept a low rate of production untill 2015 with a resurgence in 1991.
+
+According to Agresta, Western movies reflect America's self-image througout time. (Agresta, 2013) The first blip of Western movies was around 1935s, corresponding to America's preparation of World War II. During this time, war propaganda describe a double polar world where there are bad guys and good guys, and America was the good guy - the saver of freedom across the world.(Little, 2016) This war depiction is similar to the theme of Western movies, where the good guy save people and properties from bad guys. According to our hypothesis, the production of Western movies might be encouraged by the war propoganda during this time.
+
+The two high peaks occured in accordance with the post-war period when America enforced its dominion over half the planet (Agresta, 2013) and the Cold War.The bipolar depiction of the world continues and was reinforced. Also, as Agresta argued, America's dobious wars overseas changed the figure of the cowboys towards anti-heros.(Agresta, 2013) Western movies might gained a large popularity because its increasing correspondance to the self-image and opinions towards politics of Americans - saver and hero of the world with more complicated motivations. 
+
+At the start of the 1980s, a sense of disappointment to the country was prevalent in the country and the nuanced patriotism in the movie is less favoured, which is correspondance with the decline of the Western movies(Agresta, 2013). However, as Agresta argued, the victory in the Cold War coincided with a resurgent little peak of Western movies in 1991.
+
+The trend of production of Western movies we observed is in  corresponding to the historical events that influenced the Western movies as Agresta examined in his article from 1930 to 2000. 
+
+Agresta: https://www.theatlantic.com/entertainment/archive/2013/07/how-the-western-was-lost-and-why-it-matters/278057/
+
+little: https://news.nationalgeographic.com/2016/12/world-war-2-propaganda-history-books/
