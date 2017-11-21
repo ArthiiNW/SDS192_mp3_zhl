@@ -14,7 +14,7 @@ library(tidyverse)
 library(readr)
 library(ggplot2)
 library(scales)
-Western_1117 <- read_csv("~/SDS192_mp33/Western_1120.csv")
+Western_1117 <- read_csv("~/SDS192_mp3_zhl/Western_1120.csv")
 ```
 
 ```{r}
@@ -55,22 +55,28 @@ peakWestern %>%
   scale_x_discrete(breaks = c(1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010)) +
   labs(x = "Production Year", y = "Number of Western Movies", title = "Number of Western Movies Between 1900 and 2015") + geom_bar(data = subset(peakWestern, number == max (number)), aes(x = production_year, y = number), fill = "red", stat = "identity") +
   geom_text(data = subset(peakWestern, number == max (number)), aes(x = production_year, y = number, label = production_year), hjust = -0.2) +
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(plot.title = element_text(hjust = 0.5)) +
+  geom_bar(data = subset(peakWestern, number == min (number)), aes(x = production_year, y = number), fill = "blue", stat = "identity") 
 ```
 
-As the graph shows, the production of Western movies increased from 1900 to 1950s with one little blip, and had two distinguishing high peak in 1950s and 1970s. The number of Western movies then quickly fall in the beginning of 1980s and kept a low rate of production untill 2015 with a resurgence in 1991.
+As the graph shows, the production of Western movies peaked in the period of 1910 to 1930 and around 2010. The number of Western movies then quickly fall in the beginning of 1930s and reached a low rate of production in 1980s and 1990s.
 
-According to Agresta, Western movies reflect America's self-image througout time. (Agresta, 2013) The first blip of Western movies was around 1935s, corresponding to America's preparation of World War II. During this time, war propaganda describe a double polar world where there are bad guys and good guys, and America was the good guy - the saver of freedom across the world.(Little, 2016) This war depiction is similar to the theme of Western movies, where the good guy save people and properties from bad guys. According to our hypothesis, the production of Western movies might be encouraged by the war propoganda during this time.
+The development and blooming of Hollywood may count for the peak of Western movies in 1910 to 1930(Dirks, ). According to Dirks' article, Hollywood was a small corporation before 1910. In the following ten years, it grew rapidly as long as its film production. By 1915, 60% of film production came from Hollywood.At that time, Western was the most popular Hollywood genre. The bloom of Hollywood continued in the 1920s as long as the bloom of Western movies.
 
-The two high peaks occured in accordance with the post-war period when America enforced its dominion over half the planet (Agresta, 2013) and the Cold War.The bipolar depiction of the world continues and was reinforced. Also, as Agresta argued, America's dobious wars overseas changed the figure of the cowboys towards anti-heros. Western movies might gained a large popularity because its increasing correspondance to the self-image and opinions towards politics of Americans - saver and hero of the world with more complicated motivations. 
+The Great Depression came in the 1930s and hit the film production so hard that it reduced production rates in almost all genres, including Western (University of Minnesota, ). World War II influenced the film market badly in the early 1940s and the production drop even further.The production rate kept low as television expanded its market.
 
-At the start of the 1980s, a sense of disappointment to the country was prevalent in the country and the nuanced patriotism in the movie is less favoured, which is correspondance with the decline of the Western movies (Agresta, 2013). However, as Agresta argued, the victory in the Cold War coincided with a resurgent little peak of Western movies in 1991.
+The 1980s and the 1990s were the decades when the total production of films reached the lowest point in the US, where was the Western movies mostly from.(Pollock, 2008) They were also the period when the last fans of Western movies from the 1930s, or the last generation with a memory of blooming Western movies, grown old and not willing to go out for a movie.(Agresta, 2013) The market further shrank and the production went to the lowest point in the history.
 
-The trend of production of Western movies we observed is in corresponding to the historical events that influenced the Western movies as Agresta examined in his article from 1930 to 2000. 
+The film production raised at the start of the new century and kept rising in the following decade, along with the production of Western movies.
+
+Dirks: http://www.filmsite.org/filmh.html
+
+U of Mennisota: https://quod.lib.umich.edu/h/humfig/11217607.0004.202/--explaining-american-hypocrisy?rgn=main;view=fulltext
+
+Pollock: http://rufuspollock.com/2008/10/17/filmmovie-production-over-time/
 
 Agresta: https://www.theatlantic.com/entertainment/archive/2013/07/how-the-western-was-lost-and-why-it-matters/278057/
 
-little: https://news.nationalgeographic.com/2016/12/world-war-2-propaganda-history-books/
 
 
 #What might account for this, and does the IMDB define a Western in the 1950 in the same way as it does in 2000?
@@ -120,7 +126,7 @@ As we can see from the graph, many keywords appear 3 or 4 times in 1950s, and th
 
 According to the graph, from 1961 to 1970 (green triangles), there are more keywords that appear more than twice. Among them, 'Southern-accent' (14 times), 'blood-brother' and 'bullet proof glass' (7 times), and 'blood spurting' (6 times). Note that the keyword 'Southern-accent' has the highest frequency from 1950 to 2000. There are more movies associated with the South compared to movies from the previous period, and the violent scenes seem more frequent.  These changes are also mentioned in Perry's article. He emphasizes that the provalence of TV at that period resulted in broader audience base that demanded more diverse storytelling styles of western films, among which family drama, such as "the wild wild west", was one of the most popular ones. This was proved by the frequent appearance of the keyword "bloody brother".  
 
-From 1971 to 1980 (blue squares), as we can see in the graph, there are less keywords that appear more than twice compared to that of the two previous periods and the number of western films produced started decreasing more drastically. The impact of Southern culture in Western movies is still prevalent because the keyword 'Southern accent' still has the highest frequency (7 times). There are also a few keywords that appear 4 times, including 'blood brothers', 'bullet proof glass', 'caiman', 'china' and 'jackass'. The 1970s seem to be strongly influenced by the trends of 1960s, as the top keywords in 1960s are still prevalent in 1970s. The appearance of more varying themes is consistant to what Perry pointed out in the article. Traditional way of film making was being assaulted and young filmmakers, such as Sam Pekinpah and Sergio Leone, were trying to push the envelope with other types of storytellings. Some of the new themes mentioned by Perry included aging, skewed morality, and racism, and there were more satirizing than battling in the new ways of storytellings. However, since then the whole studio system had been dying rapidly, which was proved by the decreasing number of western films produced and decreasing kinds of keywords.
+From 1971 to 1980 (blue squares), as we can see in the graph, there are less keywords that appear more than twice compared to that of the two previous periods and the number of western films produced started decreasing more drastically. The impact of Southern culture in Western movies is still prevalent because the keyword 'Southern accent' still has the highest frequency (7 times). There are also a few keywords that appear 4 times, including 'blood brothers', 'bullet proof glass', 'caiman', 'china' and 'jackass'. The 1970s seem to be strongly influenced by the trends of 1960s, as the top keywords in 1960s are still prevalent in 1970s. The appearance of more varying themes is consistant to what Perry pointed out in the article. Traditional way of film making was being assaulted and young filmmakers, such as Sam Pekinpah and Sergio Leone, were trying to push the envelope with other types of storytellings. Some of the new themes mentioned by Perry included aging, skewed morality, and racism, and there were more satirizing than battling in the new ways of storytellings. These evolutions led to another peak at this period as we can see in the histogram plot above.
 
 From 1981 to 1990, according to the graph, there is no keyword that appears more than twice! We think that it might because the Western films of this period is very diverse (no traits of concentration around some major topics) and the decline in number of Western films. In fact, there are only 27 keywords in this period, which is the lowest from 1950 to 2000. Perry also confirms this in the article that the western films was vanishing during 80s and some famous series, such as Eastwood, stopped making new ones.
 
@@ -128,4 +134,4 @@ From 1991 to 2000, there is only one keyword that appears more than twice, which
 
 In a word, what we can observed in the graphs above is corresponding with what was going on in the western filming industry from 1950 to 2000 as discussed in J.C. Perry's article.
 
-
+Github Link: https://github.com/ArthiiNW/SDS192_mp3_zhl
