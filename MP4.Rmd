@@ -1,6 +1,6 @@
 
 ---
-Title: The rise and fall of Western movie  - why social change matters in movie production
+Title: The Rise And fall of Western Movie  - Why Social Change Matters In Movie Production
 output: 
   html_document: 
     code_folding: hide
