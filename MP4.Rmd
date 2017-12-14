@@ -1,0 +1,164 @@
+---
+output: 
+  html_document: 
+    css: bootstrap.css
+    fig_caption: yes
+    highlight: tango
+    theme: journal
+    toc: yes
+---
+
+```{r echo = FALSE}
+library(yaml)
+```
+
+
+---
+output: 
+  html_document: 
+    css: bootstrap.css
+    highlight: tango
+    theme: journal
+---
+
+
+
+---
+output: html_document:
+          code_folding: hide
+          df_print: paged in YAML
+---
+
+
+`r format(Sys.Date(), "%B %e, %Y")`
+
+The recent released 300-million budget DC superhero movie Justice League experienced a huge failure in terms of audience reviews - No mentioning a huge bunch of critic articles call it “a mess”, the film received a 41% on rotten tomatoes. One of the reason of the flop is the conventional plot and featureless characters of the superheros just bored the audience.  If this movie was on screen back to 1960s, this kind of simple plot of the good guys defeating the vicious bandit and protecting  the planet is enough to attract audience. However, the society has changed, and people are now looking for more interesting story with deeper meaning and more humanized heros. 
+
+
+![](http://68.media.tumblr.com/dcadb241136cfe06eb644cf2df950665/tumblr_onfby1uLgh1snteogo2_r1_540.gif)
+
+
+How could DC have not seen that? There has been a quite famous example sitting there in the history - quite like nowadays superhero movie as a genre - showing the importance of the production of such movies should follow the trait of social change. The example is the declined Western movie. The statistical data showed that in the 1910-1930 peak of the production of the Western movies, the themes of them well reflected the contemporary change of the American society. After 1980, as the social topic changed and Western movies was constrained to the old theme, the popularity experienced a rapid declination, while in the recent decades another peak appeared in Western movies production since the movies again fit the public demand.
+
+
+```{r, message = FALSE, echo = FALSE}
+library(dplyr)
+library(mosaic)
+library(tidyverse)
+library(readr)
+library(ggplot2)
+library(scales)
+Western_1117 <- read_csv("~/SDS192_mp33/Western_1120.csv")
+```
+
+
+```{r  message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+peakWestern <- Western_1117 %>%
+  filter(production_year<=2015) %>%
+  filter(production_year>=1900)%>%
+  group_by(production_year) %>%
+  summarize(number = n_distinct(movie_id)) %>%
+  arrange(desc(number))
+```
+
+
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+peakWestern %>%
+  ggplot(aes(y = number, x = production_year)) +
+  geom_bar(stat = "identity") +
+  scale_x_discrete(breaks = c(1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010)) +
+  labs(x = "Production Year", y = "Number of Western Movies", title = "Number of Western Movies Between 1900 and 2015") + geom_bar(data = subset(peakWestern, number == max (number)), aes(x = production_year, y = number), fill = "red", stat = "identity") +
+  geom_text(data = subset(peakWestern, number == max (number)), aes(x = production_year, y = number, label = production_year), hjust = -0.2) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  geom_bar(data = subset(peakWestern, number == min (number)), aes(x = production_year, y = number), fill = "blue", stat = "identity") 
+```
+
+
+Over time, westerns have been redefined, reinvented and expanded to reflect the changes in the American society. As [Agresta](https://www.theatlantic.com/entertainment/archive/2013/07/how-the-western-was-lost-and-why-it-matters/278057/) commented, the themes of Western movies shift over time in accordance with America's social movements. From the end of 19th century to early 20th century, the Civil War(1860-1865), Industrial Revolution (1870-1914), and the Mexican Revolution (1910) had resulted in reform in social organization and reconstruction of social classes (Hoberman, 2003).  As these movements triggered people’s interests about the conquest of nature and the confiscation of the territorial rights of the original inhabitants, Westerns correspondingly started to often set on the American frontier, the borderline between civilization and the wilderness. Often the hero of a western meets his opposite ‘double,’ a mirror of his own evil side that he has to destroy in either the societal or the familial setting----- complex with friends, relatives, and lovers of both White American and Native American. 
+
+IMDb database reveals the historical trend of western movies. During 1907-1917, top keywords of western films are indeed mainly about conflicts happened within family or wilderness settings. Top keywords about family drama include “extramarital affair”,  “brother shoots brother”, “loss of friend”, which suggest that the films’ plots are closely related to the conflicts people witness in ordinary lives. Just by reading the film titles - Three Friends, Calamity Anne’s Beauty, and Broken Ways, the audiences can expect familial conflicts in the films. The top keywords about disputes in the wild include “face-sitting” (18 times), “woods” (4 times), and “fugitive” (3 times),  suggest fighting scenes and violence in the wildness occurred frequently in the Western movies. Movies such as “An Indian’s Loyalty” and “The Accusation of Broncho Willy” both feature fighting scenes in the wilderness and the protagonist proving their innocence. The setting of Western movies reflects people’s attention to the personal and property conflicts taking place in the West.
+
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+options("scipen"=999, "digits"=4)
+Western_decade <- Western_1117 %>%
+  mutate(decade = cut(as.numeric(production_year), seq(from = 1950, to = 2010, by = 10), dig.lab = 5,  include.lowest = TRUE, include.highest = FALSE)) %>%
+  filter(decade != 'NA')%>%
+  group_by(keyword, decade) %>%
+  summarise(number = n())%>%
+  filter(number >= 2)
+Western_decade
+```
+
+
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+# install.packages("DT")
+library(DT)
+datatable(Western_decade, option = list(pageLength = 3))
+```
+
+
+Nevertheless, many film critics attribute the decline of the Western movies in the 1970s to the Vietnam War. [Hoberman](https://books.google.com/books?id=MwkjZGjcy-0C&pg=PA129&lpg=PA129&dq=J.+Hoberman+wrote+that+%E2%80%9Csave+for+a+handful+of+releases,+the+western+itself+has+remained+defunct+since+the+fall+of+Saigon,%E2%80%9D&source=bl&ots=1WCITtnIYL&sig=RkN4j0tEpJ1Y4RTaUwWUzIwC8jk&hl=zh-CN&sa=X&ved=0ahUKEwjU8MH5kO_XAhWkg-AKHRN0Bs8Q6AEIMjAB#v=onepage&q=J.%20Hoberman%20wrote%20that%20%E2%80%9Csave%20for%20a%20handful%20of%20releases%2C%20the%20western%20itself%20has%20remained%20defunct%20since%20the%20fall%20of%20Saigon%2C%E2%80%9D&f=false) once noted that the ugliness of the conflict rendered the often blindly patriotic tone of the western obsolete (Hoberman, 2003). Vietnam-era westerns films like Stagecoach and High Noon show the difficult process of extending a young nation into new territory. Perhaps that’s why westerns resonate less and less since precious few among us would still call America a country on the rise. In addition, the cowboy has been gradually replaced by the superhero as the most common expression of American values in blockbuster filmmaking. 
+
+
+```{r, message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+library(dplyr)
+library(mosaic)
+library(tidyverse)
+library(readr)
+library(ggplot2)
+library(scales)
+Superhero_1213 <- read_csv("~/SDS192_mp33/Superhero_1213.csv")
+```
+
+
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+Superhero_1213 <- Superhero_1213 %>%
+  filter(production_year<=2015) %>%
+  filter(production_year>=1900)%>%
+  group_by(production_year) %>%
+  summarize(number = n_distinct(id)) %>%
+  arrange(desc(number))
+```
+
+
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+peakWestern %>%
+  ggplot(aes(y = number, x = production_year)) +
+  geom_bar(stat = "identity") +
+  scale_x_discrete(breaks = c(1950, 1960, 1970, 1980, 1990, 2000, 2010)) +
+  labs(x = "Production Year", y = "Number of Superhero Movies", title = "Number of Superhero Movies Between 1900 and 2015") + geom_bar(data = subset(Superhero_1213, number == max (number)), aes(x = production_year, y = number), fill = "red", stat = "identity") +
+  geom_text(data = subset(Superhero_1213, number == max (number)), aes(x = production_year, y = number, label = production_year), hjust = -0.2) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  geom_bar(data = subset(Superhero_1213, number == min (number)), aes(x = production_year, y = number), fill = "blue", stat = "identity") 
+```
+
+
+While Western’s golden age is gone, superhero movies become more and more popular starting from 1970s. From the 1978 Superman movie starring Christopher Reeve to the 2017 Justice League, superhero movies have never lost its audience. In fact, many superhero movies nowadays are based on characters in DC and Marvel comic books back in the 1950s. The audiences of superhero movies are not just teenagers who dream to possess some superpower and save the planet, there are also adults who are excited to see their childhood heros in motion pictures. Thanks to the establishment of Marvel Studios, the number of movies that are tagged ‘superhero’ in the IMDB database is increasing rapidly since 2000. 
+
+![](https://timg04.bdimg.com/timg?wapbaike&quality=60&size=b960_614&sec=1349839550&di=0ea14544c18f57f499430d9ca28c7543&src=http://imgsrc.baidu.com/baike/pic/item/e824b899a9014c08bf3158a8027b02087bf4f4b1.jpg){#id .class width=1500 height=1500px}
+
+Since early 21th century, western films had been trying to mount a comeback and reached its second peak in 2010. As shown in the IMDb database, the keywords associated with Western films are much more diverse and less concentrated on violent and conflictuous scenes. From 2005 to 2015, “American secret service” appears 6 times, and this keyword is closely linked with the rising popularity of detective films.
+
+```{r message = FALSE, echo = FALSE, cache = FALSE, comment=FALSE, warning=FALSE}
+options("scipen"=999, "digits"=4)
+Western_decade2 <- Western_1117 %>%
+  mutate(decade = cut(as.numeric(production_year), seq(from = 1950, to = 2015, by = 10), dig.lab = 5,  include.lowest = TRUE, include.highest = FALSE)) %>%
+  filter(decade != 'NA')%>%
+  group_by(keyword, decade) %>%
+  summarise(number = n())%>%
+  filter(number >= 2)
+Western_decade2
+```
+
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+# install.packages("DT")
+library(DT)
+datatable(Western_decade2, option = list(pageLength = 3))
+```
+
+
+
+Instead of depicting the conflicts between civilization and savage wilderness, new era western films, such as Brokeback Mountain (2005), is exploring homosexuality theme that fits American popular culture. Different from traditional Western movies where right and wrong are easily distinguishable, Revisionist Western films such as Quentin’s Django Unchained (2012) and The Hateful Eight (2015) (LINK TO IMDb) depict a moral 'grey' area where hero and villain resemble each other. The “post-western” is trying to offer audience a cathartic space to look for answers.
+
+
+
