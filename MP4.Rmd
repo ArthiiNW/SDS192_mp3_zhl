@@ -79,15 +79,14 @@ Western_decade <- Western_1117 %>%
   filter(decade != 'NA')%>%
   group_by(keyword, decade) %>%
   summarise(number = n())%>%
-  filter(number >= 2)
-Western_decade
+  filter(number >= 3)
 ```
 
 
 ```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
 # install.packages("DT")
 library(DT)
-datatable(Western_decade, option = list(pageLength = 3))
+datatable(Western_decade, option = list(pageLength = 5))
 ```
 
 
@@ -133,25 +132,6 @@ While Western’s golden age is gone, superhero movies become more and more popu
 
 
 Since early 21th century, western films had been trying to mount a comeback and reached its second peak in 2010. As shown in the IMDb database, the keywords associated with Western films are much more diverse and less concentrated on violent and conflictuous scenes. From 2005 to 2015, “American secret service” appears 6 times, and this keyword is closely linked with the rising popularity of detective films.
-
-```{r message = FALSE, echo = FALSE, cache = FALSE, comment=FALSE, warning=FALSE}
-options("scipen"=999, "digits"=4)
-Western_decade2 <- Western_1117 %>%
-  mutate(decade = cut(as.numeric(production_year), seq(from = 1950, to = 2015, by = 10), dig.lab = 5,  include.lowest = TRUE, include.highest = FALSE)) %>%
-  filter(decade != 'NA')%>%
-  group_by(keyword, decade) %>%
-  summarise(number = n())%>%
-  filter(number >= 2)
-Western_decade2
-```
-
-```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
-# install.packages("DT")
-library(DT)
-datatable(Western_decade2, option = list(pageLength = 3))
-```
-
-
 
 Instead of depicting the conflicts between civilization and savage wilderness, new era western films, such as Brokeback Mountain (2005), is exploring homosexuality theme that fits American popular culture. Different from traditional Western movies where right and wrong are easily distinguishable, Revisionist Western films such as Quentin’s Django Unchained (2012) and The Hateful Eight (2015) (LINK TO IMDb) depict a moral 'grey' area where hero and villain resemble each other. The “post-western” is trying to offer audience a cathartic space to look for answers.
 
