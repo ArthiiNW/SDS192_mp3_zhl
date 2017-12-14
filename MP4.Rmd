@@ -1,41 +1,29 @@
+
 ---
+Title: The rise and fall of Western movie  - why social change matters in movie production
 output: 
   html_document: 
-    css: bootstrap.css
+    code_folding: hide
     fig_caption: yes
-    highlight: tango
     theme: journal
-    toc: yes
----
-
-```{r echo = FALSE}
-library(yaml)
-```
-
+params:
+  set_title: "The rise and fall of Western movie  - why social change matters in movie production"
+title: "`r params$set_title`"
 
 ---
-output: 
-  html_document: 
-    css: bootstrap.css
-    highlight: tango
-    theme: journal
----
-
-
-
----
-output: html_document:
-          code_folding: hide
-          df_print: paged in YAML
----
-
 
 `r format(Sys.Date(), "%B %e, %Y")`
+
+
+```{r echo = FALSE}
+#install.packages(c("knitr", "rmarkdown"))
+```
+
 
 The recent released 300-million budget DC superhero movie Justice League experienced a huge failure in terms of audience reviews - No mentioning a huge bunch of critic articles call it “a mess”, the film received a 41% on rotten tomatoes. One of the reason of the flop is the conventional plot and featureless characters of the superheros just bored the audience.  If this movie was on screen back to 1960s, this kind of simple plot of the good guys defeating the vicious bandit and protecting  the planet is enough to attract audience. However, the society has changed, and people are now looking for more interesting story with deeper meaning and more humanized heros. 
 
 
-![](http://68.media.tumblr.com/dcadb241136cfe06eb644cf2df950665/tumblr_onfby1uLgh1snteogo2_r1_540.gif)
+![Justice League](http://68.media.tumblr.com/dcadb241136cfe06eb644cf2df950665/tumblr_onfby1uLgh1snteogo2_r1_540.gif)
 
 
 How could DC have not seen that? There has been a quite famous example sitting there in the history - quite like nowadays superhero movie as a genre - showing the importance of the production of such movies should follow the trait of social change. The example is the declined Western movie. The statistical data showed that in the 1910-1930 peak of the production of the Western movies, the themes of them well reflected the contemporary change of the American society. After 1980, as the social topic changed and Western movies was constrained to the old theme, the popularity experienced a rapid declination, while in the recent decades another peak appeared in Western movies production since the movies again fit the public demand.
@@ -135,7 +123,8 @@ peakWestern %>%
 
 While Western’s golden age is gone, superhero movies become more and more popular starting from 1970s. From the 1978 Superman movie starring Christopher Reeve to the 2017 Justice League, superhero movies have never lost its audience. In fact, many superhero movies nowadays are based on characters in DC and Marvel comic books back in the 1950s. The audiences of superhero movies are not just teenagers who dream to possess some superpower and save the planet, there are also adults who are excited to see their childhood heros in motion pictures. Thanks to the establishment of Marvel Studios, the number of movies that are tagged ‘superhero’ in the IMDB database is increasing rapidly since 2000. 
 
-![](https://timg04.bdimg.com/timg?wapbaike&quality=60&size=b960_614&sec=1349839550&di=0ea14544c18f57f499430d9ca28c7543&src=http://imgsrc.baidu.com/baike/pic/item/e824b899a9014c08bf3158a8027b02087bf4f4b1.jpg){#id .class width=1500 height=1500px}
+![](https://timg04.bdimg.com/timg?wapbaike&quality=60&size=b960_614&sec=1349839550&di=0ea14544c18f57f499430d9ca28c7543&src=http://imgsrc.baidu.com/baike/pic/item/e824b899a9014c08bf3158a8027b02087bf4f4b1.jpg){ width=50% }
+
 
 Since early 21th century, western films had been trying to mount a comeback and reached its second peak in 2010. As shown in the IMDb database, the keywords associated with Western films are much more diverse and less concentrated on violent and conflictuous scenes. From 2005 to 2015, “American secret service” appears 6 times, and this keyword is closely linked with the rising popularity of detective films.
 
