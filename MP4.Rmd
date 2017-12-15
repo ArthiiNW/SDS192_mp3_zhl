@@ -33,7 +33,20 @@ The recently released $300 million budget DC superhero movie [*Justice League*](
 
 How could DC not seen that? The decline of Western movies since the 1970s tells us that the production of movies should follow the trait of social change. The statistical data showed that the production of the Western movies peaked in 1910 to 1030, when the themes of Western movies well reflected the contemporary change of the American society. After 1980, as the social topic changed, Western movies were still constrained to the old theme, the popularity experienced a rapid declination. In the recent decades another peak appeared in Western movies production since the movies again fit the public demand.
 
+```{r}
+library(mdsr)
+library(RMySQL)
+db <- dbConnect_scidb(dbname = "imdb")
+```
 
+```{R}
+Western_1117 <- db %>%
+  dbGetQuery("SELECT info_type_id, movie_info.movie_id, info, keyword, title.phonetic_code, production_year, title
+ FROM imdb.title
+ JOIN imdb.movie_info ON movie_info.movie_id = title.id
+ JOIN imdb.keyword ON imdb.title.phonetic_code = keyword.phonetic_code
+ WHERE info_type_id = 3 AND info = 'Western';")
+```
 
 ```{r, message = FALSE, echo = FALSE}
 knitr::opts_chunk$set(fig.width=12, fig.height=8) 
@@ -43,7 +56,6 @@ library(tidyverse)
 library(readr)
 library(ggplot2)
 library(scales)
-Western_1117 <- read_csv("~/SDS192_MP4_zhl/Western_1120.csv")
 ```
 
 
@@ -94,6 +106,17 @@ datatable(Western_decade, option = list(pageLength = 5))
 
 Nevertheless, many film critics attribute the decline of the Western movies in the 1970s to the Vietnam War. [Hoberman](https://books.google.com/books?id=MwkjZGjcy-0C&pg=PA129&lpg=PA129&dq=J.+Hoberman+wrote+that+%E2%80%9Csave+for+a+handful+of+releases,+the+western+itself+has+remained+defunct+since+the+fall+of+Saigon,%E2%80%9D&source=bl&ots=1WCITtnIYL&sig=RkN4j0tEpJ1Y4RTaUwWUzIwC8jk&hl=zh-CN&sa=X&ved=0ahUKEwjU8MH5kO_XAhWkg-AKHRN0Bs8Q6AEIMjAB#v=onepage&q=J.%20Hoberman%20wrote%20that%20%E2%80%9Csave%20for%20a%20handful%20of%20releases%2C%20the%20western%20itself%20has%20remained%20defunct%20since%20the%20fall%20of%20Saigon%2C%E2%80%9D&f=false) once noted that the ugliness of the conflict rendered the often blindly patriotic tone of the western obsolete (Hoberman, 2003). Vietnam-era westerns films like Stagecoach and High Noon show the difficult process of extending a young nation into new territory. Perhaps that’s why westerns resonate less and less since precious few among us would still call America a country on the rise. In addition, the cowboy has been gradually replaced by the superhero as the most common expression of American values in blockbuster filmmaking. 
 
+```{r}
+library(mdsr)
+library(RMySQL)
+db <- dbConnect_scidb(dbname = "imdb")
+Superhero_1213 <- db %>%
+  dbGetQuery("SELECT title, keyword, title.phonetic_code, production_year,
+ FROM imdb.title
+ JOIN imdb.keyword ON imdb.title.phonetic_code = keyword.phonetic_code
+Where keyword = 'superhero'
+ORDER BY production_year, title;")
+```
 
 ```{r, message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
 library(dplyr)
@@ -102,7 +125,6 @@ library(tidyverse)
 library(readr)
 library(ggplot2)
 library(scales)
-Superhero_1213 <- read_csv("~/SDS192_MP4_zhl/Superhero_1213.csv")
 ```
 
 
