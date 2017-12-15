@@ -33,13 +33,13 @@ The recently released $300 million budget DC superhero movie [*Justice League*](
 
 How could DC not seen that? The decline of Western movies since the 1970s tells us that the production of movies should follow the trait of social change. The statistical data showed that the production of the Western movies peaked in 1910 to 1030, when the themes of Western movies well reflected the contemporary change of the American society. After 1980, as the social topic changed, Western movies were still constrained to the old theme, the popularity experienced a rapid declination. In the recent decades another peak appeared in Western movies production since the movies again fit the public demand.
 
-```{r}
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
 library(mdsr)
 library(RMySQL)
 db <- dbConnect_scidb(dbname = "imdb")
 ```
 
-```{R}
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
 Western_1117 <- db %>%
   dbGetQuery("SELECT info_type_id, movie_info.movie_id, info, keyword, title.phonetic_code, production_year, title
  FROM imdb.title
