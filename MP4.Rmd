@@ -11,7 +11,7 @@ output:
     fig_width: 10
     fig_height: 6
 params:
-  set_title: "The rise and fall of Western movie  - why social change matters in movie production"
+  set_title: "The Rise and Fall of Western Movie - Why Social Change Matters in Movie Production"
 title: "`r params$set_title`"
 author: "Yingqi Zheng, Jocelyn Hu, Xufen Liu"
 ---
@@ -28,7 +28,7 @@ The recently released $300 million budget DC superhero movie [*Justice League*](
 
 
 
-![Justice League](http://68.media.tumblr.com/dcadb241136cfe06eb644cf2df950665/tumblr_onfby1uLgh1snteogo2_r1_540.gif) 
+![**Justice League**](http://68.media.tumblr.com/dcadb241136cfe06eb644cf2df950665/tumblr_onfby1uLgh1snteogo2_r1_540.gif) 
 
 
 How could DC not seen that? The decline of Western movies since the 1970s tells us that the production of movies should follow the trait of social change. The statistical data showed that the production of the Western movies peaked in 1910 to 1030, when the themes of Western movies well reflected the contemporary change of the American society. After 1980, as the social topic changed, Western movies were still constrained to the old theme, the popularity experienced a rapid declination. In the recent decades another peak appeared in Western movies production since the movies again fit the public demand.
@@ -37,15 +37,6 @@ How could DC not seen that? The decline of Western movies since the 1970s tells 
 library(mdsr)
 library(RMySQL)
 db <- dbConnect_scidb(dbname = "imdb")
-```
-
-```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
-Western_1117 <- db %>%
-  dbGetQuery("SELECT info_type_id, movie_info.movie_id, info, keyword, title.phonetic_code, production_year, title
- FROM imdb.title
- JOIN imdb.movie_info ON movie_info.movie_id = title.id
- JOIN imdb.keyword ON imdb.title.phonetic_code = keyword.phonetic_code
- WHERE info_type_id = 3 AND info = 'Western';")
 ```
 
 ```{r, message = FALSE, echo = FALSE}
@@ -58,9 +49,23 @@ library(ggplot2)
 library(scales)
 ```
 
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
+# Western_1120 <- read_csv("~/SDS192_mp4/Western_1120.csv")
+library(mdsr)
+library(RMySQL)
+db <- dbConnect_scidb(dbname = "imdb")
+Western_1120 <- db %>%
+  dbGetQuery("SELECT info_type_id, movie_info.movie_id, info, keyword, title.phonetic_code, production_year, title
+ FROM imdb.title
+ JOIN imdb.movie_info ON movie_info.movie_id = title.id
+ JOIN imdb.keyword ON imdb.title.phonetic_code = keyword.phonetic_code
+ WHERE info_type_id = 3 AND info = 'Western';")
+```
+
+
 
 ```{r  message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
-peakWestern <- Western_1117 %>%
+peakWestern <- Western_1120 %>%
   filter(production_year<=2015) %>%
   filter(production_year>=1900)%>%
   group_by(production_year) %>%
@@ -83,12 +88,12 @@ peakWestern %>%
 
 Over time, westerns have been redefined, reinvented and expanded to reflect the changes in the American society. As film critic Agresta [Agresta](https://www.theatlantic.com/entertainment/archive/2013/07/how-the-western-was-lost-and-why-it-matters/278057/) commented, the themes of Western movies shift over time in accordance with America's social movements. From the end of 19th century to early 20th century, the Civil War(1860-1865), Industrial Revolution (1870-1914), and the Mexican Revolution (1910) had resulted in reform in social organization and reconstruction of social classes (Hoberman, 2003).  As these movements triggered people’s interests about the conquest of nature and the confiscation of the territorial rights of the original inhabitants, Westerns correspondingly started to often set on the American frontier, the borderline between civilization and the wilderness. Often the hero of a western meets his opposite ‘double,’ a mirror of his own evil side that he has to destroy in either the societal or the familial setting -- complex with friends, relatives, and lovers of both White American and Native American. 
 
-IMDb database reveals the historical trend of western movies. During 1907-1917, top keywords of western films are indeed mainly about conflicts happened within family or wilderness settings. Top keywords about family drama include “extramarital affair”,  “brother shoots brother”, “loss of friend”, which suggest that the films’ plots are closely related to the conflicts people witness in ordinary lives. Just by reading the film titles - [*Three Friends*](http://www.imdb.com/title/tt0279534/?ref_=fn_al_tt_1), [*Calamity Anne’s Beauty*](http://www.imdb.com/title/tt0256667/?ref_=fn_al_tt_1), and [*Broken Ways*](http://www.imdb.com/title/tt0002702/?ref_=fn_al_tt_1), the audiences can expect familial conflicts in the films. The top keywords about disputes in the wild include “face-sitting” (18 times), “woods” (4 times), and “fugitive” (3 times), suggest fighting scenes and violence in the wildness occurred frequently in the Western movies. Movies such as “[*An Indian’s Loyalty*](http://www.imdb.com/title/tt0279534/?ref_=nv_sr_1)” and “[*The Accusation of Broncho Willy*](http://www.imdb.com/title/tt0213420/?ref_=fn_al_tt_1)” both feature fighting scenes in the wilderness and the protagonist proving their innocence. The setting of Western movies reflects people’s attention to the personal and property conflicts taking place in the West, which is rouse by Mexican Revolution at that period.
+IMDb database reveals the historical trend of western movies. During 1907-1917, top keywords of western films are indeed mainly about conflicts happened within family or wilderness settings. Top keywords about family drama include “extramarital affair”,  “brother shoots brother”, “loss of friend”, which suggest that the films’ plots are closely related to the conflicts people witness in ordinary lives. Just by reading the film titles - [*Three Friends*](http://www.imdb.com/title/tt0279534/?ref_=fn_al_tt_1), [*Calamity Anne’s Beauty*](http://www.imdb.com/title/tt0256667/?ref_=fn_al_tt_1), and [*Broken Ways*](http://www.imdb.com/title/tt0002702/?ref_=fn_al_tt_1), the audiences can expect familial conflicts in the films. The top keywords about disputes in the wild include “face-sitting” (18 times), “woods” (4 times), and “fugitive” (3 times), suggest fighting scenes and violence in the wildness occurred frequently in the Western movies. Movies such as [*An Indian’s Loyalty*](http://www.imdb.com/title/tt0279534/?ref_=nv_sr_1) and [*The Accusation of Broncho Willy*](http://www.imdb.com/title/tt0213420/?ref_=fn_al_tt_1) both feature fighting scenes in the wilderness and the protagonist proving their innocence. The setting of Western movies reflects people’s attention to the personal and property conflicts taking place in the West, which is rouse by Mexican Revolution at that period.
 
 
 ```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
 options("scipen"=999, "digits"=4)
-Western_decade <- Western_1117 %>%
+Western_decade <- Western_1120 %>%
   mutate(decade = cut(as.numeric(production_year), seq(from = 1950, to = 2010, by = 10), dig.lab = 5,  include.lowest = TRUE, include.highest = FALSE)) %>%
   filter(decade != 'NA')%>%
   group_by(keyword, decade) %>%
@@ -111,10 +116,9 @@ library(mdsr)
 library(RMySQL)
 db <- dbConnect_scidb(dbname = "imdb")
 Superhero_1213 <- db %>%
-  dbGetQuery("SELECT title, keyword, title.phonetic_code, production_year,
- FROM imdb.title
- JOIN imdb.keyword ON imdb.title.phonetic_code = keyword.phonetic_code
-Where keyword = 'superhero'
+  dbGetQuery("SELECT title, production_year, title.id, title.phonetic_code FROM imdb.title
+Join keyword ON title.phonetic_code = keyword.phonetic_code
+WHERE keyword = 'Superhero'
 ORDER BY production_year, title;")
 ```
 
@@ -152,7 +156,7 @@ Superhero_1213 %>%
 
 While Western’s golden age is gone, superhero movies become more and more popular starting from 1970s. In fact, we might attribute the decline of Western movie to the increasingly popular Superhero movies. From the 1978 [*Superman*](http://www.imdb.com/title/tt0078346/?ref_=nv_sr_2) movie starring Christopher Reeve to the 2017 *Justice League*, superhero movies have never lost its audience. Movie-goers like to hear the simple story of the good defeating the bad and go home with a happy ending. This pattern has already been very successful in the last century during the heyday of Western movies, and now it is Superhero movie that satisfying this everlasting audience appetite. Many superhero movies are actually based on characters in DC and Marvel comic books dated back in the 1950s. The audiences of superhero movies are not just teenagers who dream to possess some superpower and save the planet, there are also adults who are excited to see their childhood heros in motion pictures. Thanks to the establishment of Marvel Studios, the number of movies that are tagged ‘superhero’ in the IMDB database is increasing rapidly since 2000. 
 
-![](https://timg04.bdimg.com/timg?wapbaike&quality=60&size=b960_614&sec=1349839550&di=0ea14544c18f57f499430d9ca28c7543&src=http://imgsrc.baidu.com/baike/pic/item/e824b899a9014c08bf3158a8027b02087bf4f4b1.jpg)
+![**Brokeback Mountain**](https://timg04.bdimg.com/timg?wapbaike&quality=60&size=b960_614&sec=1349839550&di=0ea14544c18f57f499430d9ca28c7543&src=http://imgsrc.baidu.com/baike/pic/item/e824b899a9014c08bf3158a8027b02087bf4f4b1.jpg)
 
 
 Since early 21th century, western films had been trying to mount a comeback and reached its second peak in 2010. As shown in the IMDb database, the keywords associated with Western films are much more diverse and less concentrated on violent and conflictuous scenes. From 2005 to 2015, the keyword “American secret service” appears 6 times in Western movies’ database, and it shows that Western movies are incorporating detective elements from the rising popularity of detective films. 
