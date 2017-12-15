@@ -106,7 +106,7 @@ datatable(Western_decade, option = list(pageLength = 5))
 
 Nevertheless, many film critics attribute the decline of the Western movies in the 1970s to the Vietnam War. [Hoberman](https://books.google.com/books?id=MwkjZGjcy-0C&pg=PA129&lpg=PA129&dq=J.+Hoberman+wrote+that+%E2%80%9Csave+for+a+handful+of+releases,+the+western+itself+has+remained+defunct+since+the+fall+of+Saigon,%E2%80%9D&source=bl&ots=1WCITtnIYL&sig=RkN4j0tEpJ1Y4RTaUwWUzIwC8jk&hl=zh-CN&sa=X&ved=0ahUKEwjU8MH5kO_XAhWkg-AKHRN0Bs8Q6AEIMjAB#v=onepage&q=J.%20Hoberman%20wrote%20that%20%E2%80%9Csave%20for%20a%20handful%20of%20releases%2C%20the%20western%20itself%20has%20remained%20defunct%20since%20the%20fall%20of%20Saigon%2C%E2%80%9D&f=false) once noted that the ugliness of the conflict rendered the often blindly patriotic tone of the western obsolete (Hoberman, 2003). Vietnam-era westerns films like Stagecoach and High Noon show the difficult process of extending a young nation into new territory. Perhaps that’s why westerns resonate less and less since precious few among us would still call America a country on the rise. In addition, the cowboy has been gradually replaced by the superhero as the most common expression of American values in blockbuster filmmaking. 
 
-```{r}
+```{r message = FALSE, echo = FALSE, comment=FALSE, warning=FALSE}
 library(mdsr)
 library(RMySQL)
 db <- dbConnect_scidb(dbname = "imdb")
